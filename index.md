@@ -1,4 +1,3 @@
-- http://github.com/jyterencekim
+- [http://github.com/jyterencekim](Github Profile)
 
-> Whereof one cannot speak, thereof one must remain silent.
 
