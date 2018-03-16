@@ -1,3 +1,3 @@
-- [http://github.com/jyterencekim](Github Profile)
+- (Github Profile)[http://github.com/jyterencekim]]
 
 
