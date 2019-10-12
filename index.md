@@ -1,3 +1,2 @@
-- [Github Profile](http://github.com/jyterencekim)
-
+I love beer, cheap catchy songs, and Wittgenstein.
 
