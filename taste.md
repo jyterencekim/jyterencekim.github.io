@@ -1,68 +1,74 @@
 Not necessarily in order of preference
+어떤 식으로든 기억과 집착이 남은 가락과 영상들
 
--   GARNET CROW
--   정경화 - 나에게로의 초대, 지상에서 영원으로
--   이상은
--   소유진 - 파라파라 퀸
-    -   cf. Denise - Passion in the night, etc. (Super Eurobeat)
--   Don Henley - The Boys Of Summer
--   마키하라 노리유키槇原敬之 - 어떤 때라도どんなときも。
--   You Make Me Proud
-    -   한국어본 (아이다호 - 어느 멋진 날)
-    -   Brighton Gay Men's Chorus
--   Go_A - ШУМ, Shum
--   New Order - Bizarre Love Triangle
--   SOPHIE - Immaterial, It’s Okay To Cry
--   Depeche Mode - People are people, Shake the disease, Everything counts, ...
--   Selena Gomez and the Scene - Naturally
--   오마이걸 - WINDY DAY
--   Lupe Fiasco - The show goes on
--   Billy Joel - We didn’t start the fire
--   The Corrs - Breathless
-    -   Caroline Polachek - Breathless
-    -   Caroline Polachek - So hot you’re hurting my feelings
--   Ava Max - So Am I
--   Neil Sekada - Solitaire
--   Pet Shop Boys - Integral, ....
--   MUNA - I Know a Place, Number One Fan
--   スキマスイッチ - 全力少年
--   Cascada - Everytime we touch
--   Every Little Thing - Grip!
--   체리필터 - Happy Day, etc.
--   Erasure - Always
--   Mr. Children - Shirushi
--   HAIM - Falling, etc.
--   Chicago - You’re the inspiration
--   Enya - Book of Days
--   브라운 아이드 걸스 - LOVE (MV)
--   鬼束ちひろ
-    -   유성군
-    -   나와 왈츠를
-    -   월광
--   George Benson - Nothing's gonna change my love for you
--   Laura Pausini - La Solitudine
--   Rigoberta Bandini
-    -   Too Many Drugs
-    -   PERRA
--   ELO - Twilight
--   Zendaya - Replay
--   V6 - Change the world
--   德永英明 - 壊れかけのRadio
--   DJ Sammy - Heaven, Why
--   The Veronicas - Untouched
--   Rebecca Black - Friday
--   a-ha - Take on me
--   페퍼톤즈
--   Sigrid
--   Darude - Sandstorm
--   シャ乱Q - 上・京・物・語
--   손담비 - queen
--   악동뮤지션 - Dinosaur
--   티아라 - yayaya
--   Jenna Rose - My Jeans (ft. Baby Triggy)
--   Leon - You and I
--   박봄 - You and I
--   백지영 - 사랑 안 해 MV
--   中島みゆき - ファイト!
--   X-Large - You
--   Pháo - 2 phút hơn feat. Wack (Official Music Video)
+- GARNET CROW
+- 정경화 - 나에게로의 초대, 지상에서 영원으로
+- 이상은
+- 소유진 - 파라파라 퀸
+    - cf. Denise - Passion in the night, etc. (Super Eurobeat)
+- Don Henley - The Boys Of Summer
+- 槇原敬之 - どんなときも
+- You Make Me Proud
+    - 한국어본 (아이다호 - 어느 멋진 날)
+    - Brighton Gay Men's Chorus
+- Go_A - ШУМ, Shum
+- New Order - Bizarre Love Triangle
+- SOPHIE - Immaterial, It’s Okay To Cry
+- Depeche Mode - People are people, Shake the disease, Everything counts
+- Selena Gomez and the Scene - Naturally
+- 오마이걸 - WINDY DAY
+- Lupe Fiasco - The show goes on
+- Billy Joel - We didn’t start the fire
+- Ava Max - So Am I
+- Neil Sekada - Solitaire
+- Pet Shop Boys - Integral
+- MUNA - I Know a Place, Number One Fan
+- スキマスイッチ - 全力少年
+- Cascada - Everytime we touch
+- Every Little Thing - Grip!
+- 체리필터 - Happy Day, etc.
+- Erasure - Always
+- Mr. Children - Shirushi
+- HAIM - Falling, etc.
+- Chicago - You’re the inspiration
+- Enya - Book of Days
+- 브라운 아이드 걸스 - LOVE
+- 鬼束ちひろ
+    - 유성군
+    - 나와 왈츠를
+    - 월광
+- George Benson - Nothing's gonna change my love for you
+- Laura Pausini - La Solitudine
+- Rigoberta Bandini
+    - Too Many Drugs
+    - PERRA
+    - Ay Mamá
+- ELO - Twilight
+- Zendaya - Replay
+- Rina Sawayama
+- V6 - Change the world
+- 德永英明 - 壊れかけのRadio
+- DJ Sammy - Heaven, Why
+- The Veronicas - Untouched
+- Rebecca Black - Friday
+- a-ha - Take on me
+- Sigrid
+- Darude - Sandstorm
+- La Casa Azul - Podría Ser Peor
+- シャ乱Q - 上・京・物・語
+- 티아라 - yayaya
+- fromis_9 - Love Bomb
+- DIE ANTWOORD - BABY'S ON FIRE
+- Jenna Rose - My Jeans (ft. Baby Triggy)
+- Leon - You and I
+- 박봄 - You and I
+- The Corrs - Breathless
+    - Caroline Polachek - Breathless
+    - Caroline Polachek - So hot you’re hurting my feelings
+- Bon Jovi - Livin’ On A Prayer
+- Kylie Minogue - All The Lovers (Video)
+- 백지영 - 사랑 안 해 (Video)
+- 中島みゆき - ファイト!
+- 페퍼톤즈
+- Pháo - 2 phút hơn feat. Wack (Official Music Video)
+- 손담비 - queen
