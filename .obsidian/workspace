@@ -1,0 +1,96 @@
+{
+  "main": {
+    "id": "825ecf0a91f460fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "548dc0350b6d6d26",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "index.md",
+            "mode": "source",
+            "source": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e20267bb0882bf18",
+    "type": "split",
+    "children": [
+      {
+        "id": "56cab5686eaeeb8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b46a84519efc0ab5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "d1a34c1b20487214",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bb7700fac3b3bfb1",
+    "type": "split",
+    "children": [
+      {
+        "id": "c5be21e1b31d9f97",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "93adb37b226d1aa0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "548dc0350b6d6d26",
+  "lastOpenFiles": [
+    "index.md",
+    "_posts/thoughts/2022-07-18-reflection-and-agenda.md",
+    "_index.md"
+  ]
+}
