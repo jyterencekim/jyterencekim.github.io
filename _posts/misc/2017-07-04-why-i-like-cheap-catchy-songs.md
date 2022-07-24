@@ -3,7 +3,7 @@ layout: post
 title: 'Why I like cheap catchy songs' 
 ---
 
-Ilike cheap catchy songs in a four-on-the-floor rhythm. I wonder why people hate or pretend to hate them. Well, I do understand how some people can be completely indifferent about them, but I don’t see why one should *hate* them.
+I like cheap catchy songs in a four-on-the-floor rhythm. I wonder why people hate or pretend to hate them. Well, I do understand how some people can be completely indifferent about them, but I don’t see why one should *hate* them.
 
 I remember a friend of mine once telling that he hated them because they are an insult to the intelligence of listeners. Why *insulting*, not just *bad*, though? I feel that the reason so many people get offended by them is precisely the reason I love them: they make a bold statement, *“I am sure you will get to like this.”*
 
