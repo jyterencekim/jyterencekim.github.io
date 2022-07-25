@@ -4,7 +4,10 @@ entries:
       - title: obsessed with Wittgenstein, admires quine, loves beer, and puts garnet crow and cheap catchy songs on replay
       - title: github repo
         url: https://github.com/jyterencekim
-
+  - title: quotes
+    entries:
+      - title: From Wittgenstein in Cambridge, which collects together letters to and from Ludwig Wittgenstein during his years in Cambridge, here from a late letter to Piero Sraffa: “The older I grow the more I realize how terribly difficult it is for people to understand each other, and I think that what misleads one is the fact that they all look so much like each other. If some people looked like elephants and others like cats, or fish, one wouldn’t expect them to understand each other and things would look much more like what they really are.”
+        url: https://www.amherst.edu/amherst-story/magazine/issues/2009summer/reading
   - title: all posts
     post_list:
       limit: 5
