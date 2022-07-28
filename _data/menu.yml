@@ -10,3 +10,5 @@ entries:
       show_more: true
       show_more_text: see archive...
       show_more_url: archive.html
+  - title: quotes i like
+    url: quotes.html
