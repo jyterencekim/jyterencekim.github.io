@@ -1,5 +1,6 @@
-Not necessarily in order of preference
 어떤 식으로든 기억과 집착이 남은 가락과 영상들
+
+Not necessarily in order of preference
 
 - GARNET CROW
 - 정경화 - 나에게로의 초대, 지상에서 영원으로
