@@ -3,10 +3,9 @@ layout: post
 title: '(Software) Engineers and developers at companies'
 ---
 
-Software engineers/developers, just like any _workers_, must strive to be indispensable for a company to be hired.
+Software engineers anddevelopers, just like any _workers_, must strive to be indispensable for a company to be hired.
 Once hired, though, they have to make themselves--and their work if possible--**replaceable**. 
-They are deemed most valuable when they can replace (unnecessary?) human labor 
-with **scalable, automatized, optimized** solutions.
+They are deemed most valuable when they can replace (unnecessary?) human labor with **scalable, automatized, optimized** solutions.
 
 They can relieve the contradictory (dialectic?) tension between indispensability and replaceability 
 only by becoming a perpetual source of impetus for their company to move forward (in whichever direction),
