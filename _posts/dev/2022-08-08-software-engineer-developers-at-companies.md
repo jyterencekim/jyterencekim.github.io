@@ -1,8 +1,8 @@
 --- 
 layout: post 
-title: 'Developers at companies'
+title: '(Sotware) Engineers and developers at companies'
 ---
-Developers, just like any _workers_, must strive to be indispensable for a company to be hired.
+Software engineers/developers, just like any _workers_, must strive to be indispensable for a company to be hired.
 Once hired, though, they have to make themselves--and their work if possible--**replaceable**. 
 They are deemed most valuable when they can replace (unnecessary?) human labor 
 with **scalable, automatized, optimized** solutions.
