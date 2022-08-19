@@ -74,4 +74,5 @@ Not necessarily in order of preference
 - 中島みゆき - ファイト!
 - 페퍼톤즈
 - Pháo - 2 phút hơn feat. Wack (Official Music Video)
+- Loreen - Euphoria
 - 손담비 - queen
