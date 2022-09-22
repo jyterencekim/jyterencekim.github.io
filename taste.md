@@ -55,6 +55,7 @@ Not necessarily in order of preference
 - DJ Sammy - Heaven, Why
 - The Veronicas - Untouched
 - Rebecca Black - Friday
+- Kim Wilde - You Came
 - a-ha - Take on me
 - Sigrid
 - Darude - Sandstorm
