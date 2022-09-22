@@ -53,6 +53,7 @@ Not necessarily in order of preference
 - V6 - Change the world
 - 德永英明 - 壊れかけのRadio
 - DJ Sammy - Heaven, Why
+- SHYGIRL - BB, Firefly
 - The Veronicas - Untouched
 - Rebecca Black - Friday
 - Kim Wilde - You Came
