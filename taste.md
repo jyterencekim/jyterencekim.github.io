@@ -78,4 +78,5 @@ Not necessarily in order of preference
 - 페퍼톤즈
 - Pháo - 2 phút hơn feat. Wack (Official Music Video)
 - Loreen - Euphoria
+- ゆず - 栄光の架橋
 - 손담비 - queen
