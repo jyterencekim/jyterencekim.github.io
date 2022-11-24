@@ -15,6 +15,7 @@ Not necessarily in order of preference
 - Go_A - ШУМ, Shum
 - New Order - Bizarre Love Triangle
 - SOPHIE - Immaterial, It’s Okay To Cry
+- 奥井亜紀 - Wind Climbing ～風にあそばれて～
 - A. G. Cook
 - QT - Hey QT
 - Depeche Mode - People are people, Shake the disease, Everything counts
