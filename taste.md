@@ -42,6 +42,7 @@ Not necessarily in order of preference
     - 유성군
     - 나와 왈츠를
     - 월광
+    - 書きかけの手紙
 - George Benson - Nothing's gonna change my love for you
 - Laura Pausini - La Solitudine
 - Rigoberta Bandini
