@@ -81,4 +81,5 @@ Not necessarily in order of preference
 - Pháo - 2 phút hơn feat. Wack (Official Music Video)
 - Loreen - Euphoria
 - ゆず - 栄光の架橋
+- Perfume - Pick me up
 - 손담비 - queen
