@@ -72,7 +72,9 @@ Not necessarily in order of preference
 - 박봄 - You and I
 - The Corrs - Breathless
     - Caroline Polachek - Breathless
-    - Caroline Polachek - So hot you’re hurting my feelings
+ - Caroline Polachek 
+    - So hot you’re hurting my feelings
+    - Welcome To My Island 
 - Bon Jovi - Livin’ On A Prayer
 - Kylie Minogue - All The Lovers (Video)
 - 백지영 - 사랑 안 해 (Video)
@@ -83,3 +85,4 @@ Not necessarily in order of preference
 - ゆず - 栄光の架橋
 - Perfume - Pick me up
 - 손담비 - queen
+- 브로콜리 너마저 - 분향
