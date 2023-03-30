@@ -89,6 +89,11 @@ Not necessarily in order of preference
 - 손담비 - queen
 - 걸스데이 - 한 번만 안아줘
 - 미스에이 - 다른 남자 말고 너
+- AOA - 심쿵해
+- 애프터스쿨 - bang
+- 청하 - Roller Coaster
+- PRISTIN - WEE WOO
+- 크레용팝 - Dancing Queen 2.0
 - 브로콜리 너마저 - 분향
 - Dorian Electra - Man To Man
 - Yaeji - Done (Let's Get It)
