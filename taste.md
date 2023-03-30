@@ -15,7 +15,7 @@ Not necessarily in order of preference
 - Go_A - ШУМ, Shum
 - New Order - Bizarre Love Triangle
 - SOPHIE - Immaterial, It’s Okay To Cry
-- Charlie XCX - Unlock It, visions, Vroom Vroom
+- Charlie XCX - Unlock It, visions, Vroom Vroom, Femmebot
 - 奥井亜紀 - Wind Climbing ～風にあそばれて～
 - A. G. Cook
 - QT - Hey QT
@@ -87,7 +87,8 @@ Not necessarily in order of preference
 - ゆず - 栄光の架橋
 - Perfume - Pick me up
 - 손담비 - queen
-- 걸스데이 - 한번만 안아줘
+- 걸스데이 - 한 번만 안아줘
+- 미스에이 - 다른 남자 말고 너
 - 브로콜리 너마저 - 분향
 - Dorian Electra - Man To Man
 - Yaeji - Done (Let's Get It)
