@@ -87,7 +87,7 @@ Not necessarily in order of preference
 - ゆず - 栄光の架橋
 - Perfume - Pick me up
 - 손담비 - queen
-- 걸스데이 - 한 번만 안아줘
+- 걸스데이 - 한 번만 안아줘, 잘해줘봐야, 나를 잊지마요
 - 미스에이 - 다른 남자 말고 너
 - AOA - 심쿵해
 - 애프터스쿨 - bang
