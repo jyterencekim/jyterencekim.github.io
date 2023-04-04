@@ -14,7 +14,7 @@ Scribbles of thoughts, yet to be polished and revisited.
 		- With smart contracts, we can make certain and clear, to and by ourselves (our publicly maintained network), that **someone bears some kind of relationship to something**.
 			- Who guarantees the authenticity of an object, asset, or property?
 				- Signers and wallets do; for each object we can track its genesis up through the trees and blocks of the chain network.
-			- How can we ensure that a given signer is **the** authentic signer that we can trust, that it is **this** real person or entity that we entrust?
+			- How can we ensure that a given signer is **the** authentic signer that we can trust, that it is **this** real person or entity that we are looking for?
 				- Maybe there's no way to ensure a direct connection between a wallet and a physical subject.
 				- But the problem of establishing a secure identity correspondence here does not threaten the authenticity of an original object.
 					- The question here seems similar to this: "It is said that Leonardo da Vinci drew Mona Lisa. We have a painting, purportedly Mona Lisa, here and we've got all physical data and historical evidence to track down the artist, which does point at da Vinci. But is **this** da Vinci **the** da Vinci that we are looking for?" 
