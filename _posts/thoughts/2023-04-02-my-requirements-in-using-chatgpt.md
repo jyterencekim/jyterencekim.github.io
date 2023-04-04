@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: 'My requirements in using ChatGPT' 
+title: 'My requirements in using ChatGPT' 
 ---
 
 - I must be able to pinpoint what I want to know about.
