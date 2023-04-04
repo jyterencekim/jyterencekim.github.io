@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: 'How NFTs are significant' 
+title: 'How NFTs are significant' 
 ---
 
 Scribbles of thoughts, yet to be polished and revisited.
