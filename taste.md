@@ -3,6 +3,7 @@
 Not necessarily in order of preference
 
 - GARNET CROW
+   - almost all of its songs till 2009
 - 정경화 - 나에게로의 초대, 지상에서 영원으로
 - 이상은
 - 소유진 - 파라파라 퀸
@@ -43,6 +44,8 @@ Not necessarily in order of preference
     - 유성군
     - 나와 왈츠를
     - 월광
+    - CROW
+    - Shine
     - 書きかけの手紙
 - George Benson - Nothing's gonna change my love for you
 - Laura Pausini - La Solitudine
