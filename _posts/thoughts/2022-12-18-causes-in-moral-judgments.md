@@ -1,6 +1,8 @@
 --- 
 layout: post 
 title: 'Reasons and justifications for moral judgments' 
+categories:
+    - thoughts
 ---
 
 We explain and justify our moral judgments; from this it does not follow that those judgements of ours are or must be some **instances** of higher-order principles.

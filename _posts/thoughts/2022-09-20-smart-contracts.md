@@ -1,6 +1,9 @@
 --- 
 layout: post 
 title: 'Smart Contracts' 
+categories:
+    - web3
+    - thoughts
 ---
 
 Don't we expect contracts to be reliable and transparent?

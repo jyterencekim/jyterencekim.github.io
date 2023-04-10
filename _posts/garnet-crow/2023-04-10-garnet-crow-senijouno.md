@@ -2,7 +2,7 @@
 layout: post 
 title: 'GARNET CROW - 千以上の言葉を並べても' 
 categories:
-    - garnet crow
+    - garnet-crow
 ---
 
 千以上の言葉を並べても

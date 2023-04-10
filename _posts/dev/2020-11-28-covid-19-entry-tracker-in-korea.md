@@ -2,6 +2,8 @@
 layout: post 
 title: '코로나19 대응 전자출입명부 구현'
 tags: covid-19 jwt
+categories:
+    - dev
 ---
 
 지난 주말 전자출입명부 구현이 어찌 되어있나 궁금해져서, 카카오톡에서 QR 코드를 만든 뒤 내용을 까보았더니 JWT가 나왔다.

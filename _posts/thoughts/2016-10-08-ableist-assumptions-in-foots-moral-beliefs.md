@@ -1,6 +1,9 @@
 --- 
 layout: post 
 title: 'Ableist assumptions in Foot’s “Moral Beliefs”?' 
+categories:
+    - philosophy
+    - thoughts
 ---
 
 Foot introduces an opponent claim that the word ‘injury’ is prescriptive or ‘action-guiding’ only when the speaker applies the word to “something [she] intends to avoid.”[^1] Take the expression “injury to a hand” for example. The opponent will not grant that it is logically or by definition prescriptive because one can speak of injuries without intending to dissuade anyone.

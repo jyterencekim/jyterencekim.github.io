@@ -1,6 +1,8 @@
 --- 
 layout: post 
 title: 'My requirements in using ChatGPT' 
+categories:
+    - thoughts
 ---
 
 - I must be able to pinpoint what I want to know about.
