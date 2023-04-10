@@ -1,6 +1,8 @@
 --- 
 layout: post 
 title: '(Software) Engineers and developers at companies'
+categories:
+    - thoughts
 ---
 
 Software engineers and developers, just like any _workers_, must strive to be indispensable for a company to be hired.

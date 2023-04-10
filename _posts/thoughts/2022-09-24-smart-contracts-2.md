@@ -1,6 +1,9 @@
 --- 
 layout: post 
 title: 'Smart Contracts (2)' 
+categories:
+    - web3
+    - thoughts
 ---
 
 - Dumb and simple is safer than smart and complex.

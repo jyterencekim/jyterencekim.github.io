@@ -1,6 +1,9 @@
 --- 
 layout: post 
 title: 'How NFTs are significant' 
+categories:
+    - web3
+    - thoughts
 ---
 
 Scribbles of thoughts, yet to be polished and revisited.

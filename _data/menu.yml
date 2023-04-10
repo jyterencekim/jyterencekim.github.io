@@ -2,15 +2,19 @@ entries:
   - title: info
     entries:
       - title: obsessed with Wittgenstein, admires quine, loves beer, and puts garnet crow and cheap catchy songs on replay
-      - title: github repo
+      - title: github
         url: https://github.com/jyterencekim
-  - title: all posts
+  - title: all
+    url: archive.html
+  - title: recent
     post_list:
-      limit: 25
+      limit: 15
       show_more: true
-      show_more_text: see archive...
+      show_more_text: show more
       show_more_url: archive.html
-  - title: quotes i like
+  - title: garnet crow
+    url: garnet-crow
+  - title: quotes
     url: quotes.html
   - title: taste
     url: taste.html
