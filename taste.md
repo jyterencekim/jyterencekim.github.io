@@ -9,7 +9,6 @@ Not necessarily in order of preference
 - 소유진 - 파라파라 퀸
     - cf. Denise - Passion in the night, etc. (Super Eurobeat)
 - Don Henley - The Boys Of Summer
-- 槇原敬之 - どんなときも
 - You Make Me Proud
     - 한국어본 (아이다호 - 어느 멋진 날)
     - Brighton Gay Men's Chorus
@@ -23,6 +22,9 @@ Not necessarily in order of preference
 - Depeche Mode - People are people, Shake the disease, Everything counts
 - Selena Gomez and the Scene - Naturally
 - 오마이걸 - WINDY DAY
+- 槇原敬之 
+   - どんなときも。
+   - もう恋なんてしない
 - Lupe Fiasco - The show goes on
 - Billy Joel - We didn’t start the fire
 - Ava Max - So Am I
