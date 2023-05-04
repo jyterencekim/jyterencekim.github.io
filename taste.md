@@ -91,6 +91,7 @@ Not necessarily in order of preference
 - Loreen - Euphoria
 - ゆず - 栄光の架橋
 - Perfume - Pick me up
+- 그림 (The 林) - 판 Project II
 - 손담비 - queen
 - 걸스데이 - 한 번만 안아줘, 잘해줘봐야, 나를 잊지마요
 - 미스에이 - 다른 남자 말고 너
