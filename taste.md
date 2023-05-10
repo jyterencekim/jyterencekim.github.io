@@ -106,4 +106,4 @@ Not necessarily in order of preference
 - Yaeji - Done (Let's Get It)
 - SPITZ スピッツ - ロビンソン
 - Smooth Ace - aitaine, SHINE
-
+- いとおしい人のために / 사랑하는 사람을 위하여
