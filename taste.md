@@ -105,3 +105,5 @@ Not necessarily in order of preference
 - Dorian Electra - Man To Man
 - Yaeji - Done (Let's Get It)
 - SPITZ スピッツ - ロビンソン
+- Smooth Ace - aitaine, SHINE
+
