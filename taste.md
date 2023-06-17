@@ -108,3 +108,4 @@ Not necessarily in order of preference
 - Smooth Ace - aitaine, SHINE
 - いとおしい人のために / 사랑하는 사람을 위하여
 - King Gnu
+- Dorian Electra
