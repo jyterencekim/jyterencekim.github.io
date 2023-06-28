@@ -41,6 +41,7 @@ Not necessarily in order of preference
 - HAIM - Falling, etc.
 - Chicago - You’re the inspiration
 - Enya - Book of Days
+- SHINee - Love Should Go On, JoJo
 - 브라운 아이드 걸스 - LOVE
 - 鬼束ちひろ
     - 유성군
@@ -77,6 +78,7 @@ Not necessarily in order of preference
 - Jenna Rose - My Jeans (ft. Baby Triggy)
 - Leon - You and I
 - 박봄 - You and I
+- B1A4 - O.K
 - The Corrs - Breathless
     - Caroline Polachek - Breathless
  - Caroline Polachek 
