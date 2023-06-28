@@ -111,3 +111,6 @@ Not necessarily in order of preference
 - いとおしい人のために / 사랑하는 사람을 위하여
 - King Gnu
 - Dorian Electra
+- Sean Banan - Va var det han Saade
+- Petra Marklund - Händerna mot himlen
+- Timoteij - Tabu
