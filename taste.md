@@ -114,3 +114,4 @@ Not necessarily in order of preference
 - Sean Banan - Va var det han Saade
 - Petra Marklund - Händerna mot himlen
 - Timoteij - Tabu
+- Sega Bodega - Only Seeing God When I Come
