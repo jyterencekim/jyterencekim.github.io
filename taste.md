@@ -31,6 +31,7 @@ Not necessarily in order of preference
 - Neil Sekada - Solitaire
 - Pet Shop Boys - Integral
 - MUNA - I Know a Place, Number One Fan
+- 윤복희 - 여러분
 - スキマスイッチ - 全力少年
 - Llwyd - dryflower
 - Cascada - Everytime we touch
