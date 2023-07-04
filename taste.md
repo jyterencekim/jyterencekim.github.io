@@ -117,3 +117,4 @@ Not necessarily in order of preference
 - Timoteij - Tabu
 - Sega Bodega - Only Seeing God When I Come
 - 윤미래
+- Sean Banan - Va var det han Saade
