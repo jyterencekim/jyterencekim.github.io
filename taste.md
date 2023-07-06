@@ -76,6 +76,7 @@ Not necessarily in order of preference
 - 티아라 - yayaya
 - fromis_9 - Love Bomb
 - DIE ANTWOORD - BABY'S ON FIRE
+- My Chemical Romance - Welcome to the Black Parade
 - Jenna Rose - My Jeans (ft. Baby Triggy)
 - Leon - You and I
 - 박봄 - You and I
@@ -118,3 +119,4 @@ Not necessarily in order of preference
 - Sega Bodega - Only Seeing God When I Come
 - 윤미래
 - Sean Banan - Va var det han Saade
+- 풍뎅이 - 잘 시간이 어딨어
