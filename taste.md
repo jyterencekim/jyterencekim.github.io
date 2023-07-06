@@ -76,6 +76,7 @@ Not necessarily in order of preference
 - 티아라 - yayaya
 - fromis_9 - Love Bomb
 - DIE ANTWOORD - BABY'S ON FIRE
+- M.I.A - Y.A.L.A
 - My Chemical Romance - Welcome to the Black Parade
 - Jenna Rose - My Jeans (ft. Baby Triggy)
 - Leon - You and I
