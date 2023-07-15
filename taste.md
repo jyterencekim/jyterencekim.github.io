@@ -92,6 +92,8 @@ Not necessarily in order of preference
 - 백지영 - 사랑 안 해 (Video)
 - 中島みゆき - ファイト!
 - 페퍼톤즈
+- Cristian Castro - Azul
+- Karlos Rosé - No Dejo De Amarte
 - Pháo - 2 phút hơn feat. Wack (Official Music Video)
 - Loreen - Euphoria
 - ゆず - 栄光の架橋
