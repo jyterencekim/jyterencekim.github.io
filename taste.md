@@ -58,6 +58,7 @@ Not necessarily in order of preference
     - PERRA
     - Ay Mamá
     - A ver qué pasa
+- 정태춘, 박은옥 - 92년 장마, 종로에서
 - ELO - Twilight
 - Zendaya - Replay
 - Rina Sawayama
@@ -125,3 +126,4 @@ Not necessarily in order of preference
 - 윤미래
 - Sean Banan - Va var det han Saade
 - 풍뎅이 - 잘 시간이 어딨어
+- 翠玲 - 恋をするたびに傷つきやすく
