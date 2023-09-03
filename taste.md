@@ -128,3 +128,4 @@ Not necessarily in order of preference
 - 풍뎅이 - 잘 시간이 어딨어
 - 翠玲 - 恋をするたびに傷つきやすく
 - 小松未歩 - 謎
+- Magdalena Bay - Nothing Baby, U Wanna Dance?
