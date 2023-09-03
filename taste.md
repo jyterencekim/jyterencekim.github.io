@@ -129,3 +129,4 @@ Not necessarily in order of preference
 - 翠玲 - 恋をするたびに傷つきやすく
 - 小松未歩 - 謎
 - Magdalena Bay - Nothing Baby, U Wanna Dance?
+- RAC - Ready For It (feat. St. Lucia)
