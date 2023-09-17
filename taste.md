@@ -43,6 +43,7 @@ Not necessarily in order of preference
 - Chicago - You’re the inspiration
 - Enya - Book of Days
 - SHINee - Love Should Go On, JoJo
+- SUNDAY - ウソツキBoy
 - 브라운 아이드 걸스 - LOVE
 - 鬼束ちひろ
     - 유성군
