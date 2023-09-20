@@ -84,6 +84,7 @@ Not necessarily in order of preference
 - Jenna Rose - My Jeans (ft. Baby Triggy)
 - Leon - You and I
 - 박봄 - You and I
+- 버둥 - 이별
 - B1A4 - O.K
 - The Corrs - Breathless
     - Caroline Polachek - Breathless
