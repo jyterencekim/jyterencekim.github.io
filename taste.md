@@ -21,6 +21,7 @@ Not necessarily in order of preference
 - QT - Hey QT
 - Depeche Mode - People are people, Shake the disease, Everything counts
 - Selena Gomez and the Scene - Naturally
+- 레이지본 - Do It Yourself
 - 오마이걸 - WINDY DAY
 - 槇原敬之 
    - どんなときも。
