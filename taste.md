@@ -37,7 +37,7 @@ Not necessarily in order of preference
 - Llwyd - dryflower
 - Cascada - Everytime we touch
 - Every Little Thing - Grip!
-- 체리필터 - Happy Day, etc.
+- 체리필터 - Happy Day, 유쾌한 마녀, etc.
 - Erasure - Always
 - Mr. Children - Shirushi
 - HAIM - Falling, etc.
