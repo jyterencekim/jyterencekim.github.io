@@ -54,6 +54,7 @@ Not necessarily in order of preference
     - Shine
     - 書きかけの手紙
 - George Benson - Nothing's gonna change my love for you
+- Steps - Love's Got a Hold On My Heart
 - Laura Pausini - La Solitudine
 - Rigoberta Bandini
     - Too Many Drugs
