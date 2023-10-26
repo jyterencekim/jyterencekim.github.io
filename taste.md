@@ -135,4 +135,5 @@ Not necessarily in order of preference
 - Magdalena Bay - Nothing Baby, U Wanna Dance?
 - RAC - Ready For It (feat. St. Lucia)
 - Roma Radz - Token
-- 髙橋真梨子 - EVERYTIME I FEEL YOUR HEART -君と生きたい-
+- 髙橋真梨子 - EVERYTIME I FEEL YOUR HEART -君と生きたい-, Gomenne
+- TRF - BOY MEETS GIRL
