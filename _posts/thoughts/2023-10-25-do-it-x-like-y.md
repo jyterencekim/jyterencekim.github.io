@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: 'X처럼 Y를 한다'는 말 
+title: 'X처럼 Y를 한다는 말'
 categories:
     - thoughts
 ---
