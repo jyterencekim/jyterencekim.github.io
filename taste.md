@@ -140,3 +140,5 @@ Not necessarily in order of preference
 - 髙橋真梨子 - EVERYTIME I FEEL YOUR HEART -君と生きたい-, Gomenne
 - TRF - BOY MEETS GIRL
 - 윤상 - 날 위로하려거든
+- Dennis Sheperd & Ronski Speed - Karoshi
+- Jonas Steur - Simple pleasures
