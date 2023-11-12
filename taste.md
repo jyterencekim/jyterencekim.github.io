@@ -100,6 +100,8 @@ Not necessarily in order of preference
 - Kylie Minogue - All The Lovers (Video)
 - 백지영 - 사랑 안 해 (Video)
 - 中島みゆき - ファイト!
+- angela - Shangri-La
+- ALI PROJECT - 赤と黒
 - 페퍼톤즈
 - Cristian Castro - Azul
 - Karlos Rosé - No Dejo De Amarte
