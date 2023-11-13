@@ -149,3 +149,4 @@ Not necessarily in order of preference
 - The Flaming Lips - What is the Light?, Yoshimi Battles the Pink Robots
 - 3OH!3 - Double Vision
 - Lastier - Dive into shine
+- 渡辺美里 (Misato Watanabe)　- My Revolution
