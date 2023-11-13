@@ -147,3 +147,4 @@ Not necessarily in order of preference
 - Jonas Steur - Simple pleasures
 - Enrique Iglesias - Dímelo
 - The Flaming Lips - What is the Light?, Yoshimi Battles the Pink Robots
+- 3OH!3 - Double Vision
