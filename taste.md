@@ -146,3 +146,4 @@ Not necessarily in order of preference
 - Dennis Sheperd & Ronski Speed - Karoshi
 - Jonas Steur - Simple pleasures
 - Enrique Iglesias - Dímelo
+- The Flaming Lips - What is the Light?, Yoshimi Battles the Pink Robots
