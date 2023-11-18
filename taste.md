@@ -103,6 +103,7 @@ Not necessarily in order of preference
 - angela - Shangri-La
 - ALI PROJECT - 赤と黒
 - 페퍼톤즈
+- 서태지 - Live Wire
 - Cristian Castro - Azul
 - Karlos Rosé - No Dejo De Amarte
 - Pháo - 2 phút hơn feat. Wack (Official Music Video)
