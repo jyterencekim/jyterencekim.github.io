@@ -12,6 +12,7 @@ Not necessarily in order of preference
 - You Make Me Proud
     - 한국어본 (아이다호 - 어느 멋진 날)
     - Brighton Gay Men's Chorus
+- Terence Uphoff - Twee Vaders (Kinderen voor Kinderen) 
 - Go_A - ШУМ, Shum
 - New Order - Bizarre Love Triangle
 - SOPHIE - Immaterial, It’s Okay To Cry
