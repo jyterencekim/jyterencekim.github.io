@@ -9,6 +9,7 @@ Not necessarily in order of preference
 - 소유진 - 파라파라 퀸
     - cf. Denise - Passion in the night, etc. (Super Eurobeat)
 - Don Henley - The Boys Of Summer
+- 林原めぐみ - Give a reason, Breeze, Plenty of Grit, Front Breaking
 - You Make Me Proud
     - 한국어본 (아이다호 - 어느 멋진 날)
     - Brighton Gay Men's Chorus
