@@ -157,3 +157,4 @@ Not necessarily in order of preference
 - 木村由姫 - LOVE & JOY
 - Gjon's Tears - Tout l'Univers
 - Bat For Lashes - All Your Gold
+- YELLE - Moteur Action (A. G. Cook & SOPHIE remix)
