@@ -156,3 +156,4 @@ Not necessarily in order of preference
 - Iannis Xenakis
 - 木村由姫 - LOVE & JOY
 - Gjon's Tears - Tout l'Univers
+- Bat For Lashes - All Your Gold
