@@ -36,6 +36,7 @@ Not necessarily in order of preference
 - MUNA - I Know a Place, Number One Fan
 - 윤복희 - 여러분
 - スキマスイッチ - 全力少年
+- 주주클럽 - 센티멘탈, 나는 나
 - Llwyd - dryflower
 - Cascada - Everytime we touch
 - Every Little Thing - Grip!
