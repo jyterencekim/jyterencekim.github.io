@@ -39,7 +39,7 @@ Not necessarily in order of preference
 - 주주클럽 - 센티멘탈, 나는 나
 - Llwyd - dryflower
 - Cascada - Everytime we touch
-- Every Little Thing - Grip!, Dear My Friend, Yurayura, Aino Kakera, fragile
+- Every Little Thing - Grip!, Forever Yours, Dear My Friend, Yurayura, Aino Kakera, fragile
 - The Cranberries - Just My Imagination
 - 체리필터 - Happy Day, 유쾌한 마녀, etc.
 - Erasure - Always
