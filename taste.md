@@ -135,6 +135,7 @@ Not necessarily in order of preference
 - Sean Banan - Va var det han Saade
 - Petra Marklund - Händerna mot himlen
 - Timoteij - Tabu
+- KOTOKO - Re-sublimity, Agony
 - Sega Bodega - Only Seeing God When I Come
 - 윤미래
 - Sean Banan - Va var det han Saade
