@@ -119,7 +119,7 @@ Not necessarily in order of preference
 - 걸스데이 - 한 번만 안아줘, 잘해줘봐야, 나를 잊지마요
 - 미스에이 - 다른 남자 말고 너
 - AOA - 심쿵해
-- 애프터스쿨 - bang
+- AFTER SCHOOL - Bang!, Shampoo, DIVA
 - 청하 - Roller Coaster
 - PRISTIN - WEE WOO
 - 크레용팝 - Dancing Queen 2.0
