@@ -5,6 +5,13 @@ Not necessarily in order of preference
 - GARNET CROW
    - almost all of its songs till 2009
 - 정경화 - 나에게로의 초대, 지상에서 영원으로
+- 박인희 - 모닥불
+- 녹색지대 - 사랑을 할 거야
+- 무한궤도 - 그대에게
+- 신해철 - 나에게 쓰는 편지
+- N.EX.T - 날아라 병아리
+- 조하문 - 이 밤을 다시 한 번
+- 변진섭 - 새들처럼
 - 이상은
 - 소유진 - 파라파라 퀸
     - cf. Denise - Passion in the night, etc. (Super Eurobeat)
@@ -160,9 +167,4 @@ Not necessarily in order of preference
 - Gjon's Tears - Tout l'Univers
 - Bat For Lashes - All Your Gold
 - YELLE - Moteur Action (A. G. Cook & SOPHIE remix), À cause des garçons (Tepr Remix)
-- 박인희 - 모닥불
-- 녹색지대 - 사랑을 할 거야
-- 무한궤도 - 그대에게
-- 신해철 - 나에게 쓰는 편지
-- N.EX.T - 날아라 병아리
 - Le Flex - Out of your mind
