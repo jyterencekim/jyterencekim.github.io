@@ -160,3 +160,5 @@ Not necessarily in order of preference
 - Gjon's Tears - Tout l'Univers
 - Bat For Lashes - All Your Gold
 - YELLE - Moteur Action (A. G. Cook & SOPHIE remix), À cause des garçons (Tepr Remix)
+- 박인희 - 모닥불
+- Le Flex - Out of your mind
