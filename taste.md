@@ -53,6 +53,7 @@ Not necessarily in order of preference
 - Mr. Children - Shirushi
 - HAIM - Falling, etc.
 - Chicago - You’re the inspiration
+- 백재성 · 박세아 - 희망 (그랜드체이스)
 - Enya - Book of Days
 - SHINee - Love Should Go On, JoJo
 - SUNDAY - ウソツキBoy
