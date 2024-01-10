@@ -171,3 +171,4 @@ Not necessarily in order of preference
 - Bat For Lashes - All Your Gold
 - YELLE - Moteur Action (A. G. Cook & SOPHIE remix), À cause des garçons (Tepr Remix)
 - Le Flex - Out of your mind
+- Reba McEntire - Consider Me Gone
