@@ -173,3 +173,7 @@ Not necessarily in order of preference
 - Le Flex - Out of your mind
 - Reba McEntire - Consider Me Gone
 - Daler Mehndi - Tunak Tunak Tun
+- Desi Boyz - Subha Hone Na De (Feat. Akshay Kumar, John Abraham)
+- Priyanka Chopra - Exotic ft. Pitbull
+- Jennifer Lopez - On the Floor
+- Janet Jackson - Heartbeat Love
