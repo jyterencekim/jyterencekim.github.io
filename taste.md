@@ -179,3 +179,6 @@ Not necessarily in order of preference
 - Jennifer Lopez - On the Floor
 - Janet Jackson - Heartbeat Love
 - Penn Masala - Is Pal Mein
+- As One - Day by Day
+- 박정현 - You Mean Everything To Me, 치카치카, 꿈에
+- 제이 - 어제처럼
