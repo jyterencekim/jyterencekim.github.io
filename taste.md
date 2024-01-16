@@ -126,7 +126,7 @@ Not necessarily in order of preference
 - 손담비 - queen
 - SS501 - Love Like This
 - 걸스데이 - 한 번만 안아줘, 잘해줘봐야, 나를 잊지마요
-- 미스에이 - 다른 남자 말고 너
+- 미스에이 - 다른 남자 말고 너, Love Alone
 - AOA - 심쿵해
 - 써니힐 - 백마는 오고 있는가
 - AFTER SCHOOL - Bang!, Shampoo, DIVA
