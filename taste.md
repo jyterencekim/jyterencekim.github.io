@@ -182,3 +182,4 @@ Not necessarily in order of preference
 - As One - Day by Day
 - 박정현 - You Mean Everything To Me, 치카치카, 꿈에
 - 제이 - 어제처럼
+- 파란 - 첫사랑
