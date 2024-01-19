@@ -32,6 +32,7 @@ Not necessarily in order of preference
 - Selena Gomez and the Scene - Naturally
 - 레이지본 - Do It Yourself
 - 오마이걸 - WINDY DAY
+- 高橋洋子 - 残酷な天使のテーゼ
 - 槇原敬之 
    - どんなときも。
    - もう恋なんてしない
