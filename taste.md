@@ -189,3 +189,4 @@ Not necessarily in order of preference
 - TVXQ - Here I Stand
 - WEDNESDAY CAMPANELLA - Buckingham
 - Hidefumi Kenmochi - Town work
+- ATARASHII GAKKO! – OTONABLUE
