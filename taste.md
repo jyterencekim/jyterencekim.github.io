@@ -190,3 +190,4 @@ Not necessarily in order of preference
 - WEDNESDAY CAMPANELLA - Buckingham
 - Hidefumi Kenmochi - Town work
 - ATARASHII GAKKO! – OTONABLUE, Tokyo Calling, Toryanse
+- 하리수 - Temptation
