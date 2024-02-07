@@ -194,4 +194,4 @@ Not necessarily in order of preference
 - nosaj thing - nightcrawler, for the light
 - Iglooghost - Drown U, Infinite Mint
 - Zedd, Foxes - Clarity
-- Clean Bandit - Rather Be
+- Clean Bandit - Rather Be, Symphony
