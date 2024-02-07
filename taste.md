@@ -195,3 +195,5 @@ Not necessarily in order of preference
 - Iglooghost - Drown U, Infinite Mint
 - Zedd, Foxes - Clarity
 - Clean Bandit - Rather Be, Symphony
+- Paloma Faith - Stargazer
+- Tegan and Sara - Goodbye, Goodbye, Body Work
