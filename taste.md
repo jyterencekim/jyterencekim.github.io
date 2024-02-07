@@ -193,3 +193,5 @@ Not necessarily in order of preference
 - 하리수 - Temptation
 - nosaj thing - nightcrawler, for the light
 - Iglooghost - Drown U, Infinite Mint
+- Zedd, Foxes - Clarity
+- Clean Bandit - Rather Be
