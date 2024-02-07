@@ -196,4 +196,4 @@ Not necessarily in order of preference
 - Zedd, Foxes - Clarity
 - Clean Bandit - Rather Be, Symphony
 - Paloma Faith - Stargazer
-- Tegan and Sara - Goodbye, Goodbye, Body Work
+- Tegan and Sara - Goodbye, Goodbye; Body Work; Closer
