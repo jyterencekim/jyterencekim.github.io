@@ -201,3 +201,4 @@ Not necessarily in order of preference
 - LeAnn Rimes - Can't Fight The Moonlight
 - GROSSSTADTGEFLÜSTER - FEIERABEND, Ich kündige
 - CHVRCHES - Leave A Trace, The Mother We Share
+- Shura - What's it gonna be?
