@@ -202,3 +202,5 @@ Not necessarily in order of preference
 - GROSSSTADTGEFLÜSTER - FEIERABEND, Ich kündige
 - CHVRCHES - Leave A Trace, The Mother We Share
 - Shura - What's it gonna be?
+- Fin.K.L - True Love, Now, 내 남자친구에게, 늘 지금처럼 (이예린)
+- As One - Day by Day
