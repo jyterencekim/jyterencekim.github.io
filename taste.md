@@ -205,3 +205,5 @@ Not necessarily in order of preference
 - Fin.K.L - True Love, Now, 내 남자친구에게, 늘 지금처럼 (이예린)
 - As One - Day by Day
 - 임현정 - 사랑은 봄비처럼 이별은 겨울비처럼
+- 박미경 - 이브의 경고, 기억 속의 먼 그대에게
+- 서문탁 - 사미인곡
