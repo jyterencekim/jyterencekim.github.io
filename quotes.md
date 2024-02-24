@@ -34,3 +34,6 @@ It has often been said that a person does not really understand something until 
 The precision essential to a computer’s way of manipulating symbols constitutes both a great advantage and a severe limitation.  Since what the symbols in a computer represent must be absolutely precise, and the programmer must be absolutely clear in defining each symbol, the attempt to write a computer program inevitably exposes hand-waving, fuzzy thinking and implicit appeals to what everyone takes for granted.  Submitting to this rigor is an immensely valuable discipline. - Herbert and Stuart Dreyfus
 
 네 마음을 믿는다 또한 네 말도 믿는다 허나 마음이나 말이 네 재주나 네 실력은 아니다 하여 난 착하고 실력 없는 사람이나 실력 있고 못된 사람이나 사람을 해하기는 마찬가지라고 생각한다 전자는 본의 아니게 후자는 본의로 그러는 자만 있을 뿐이지 - 드라마 <대장금> 45화, 문정왕후
+
+Different persons growing up in the same language are like different bushes trimmed and trained to take the shape of identical elephants. The anatomical details of twigs and branches will fulfill the elephantine form differently from bush to bush, but the overall outward results are alike.
+- Quine, Word and Object (1960)
