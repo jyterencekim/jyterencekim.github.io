@@ -208,3 +208,4 @@ Not necessarily in order of preference
 - 박미경 - 이브의 경고, 기억 속의 먼 그대에게
 - 서문탁 - 사미인곡
 - 박효신 - 해줄 수 없는 일, 그곳에 서서
+- Idina Menzel, Evan Rachel Wood - Show Yourself
