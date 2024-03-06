@@ -210,3 +210,4 @@ Not necessarily in order of preference
 - 박효신 - 해줄 수 없는 일, 그곳에 서서
 - Idina Menzel, Evan Rachel Wood - Show Yourself
 - Jonathan Groff - Lost in the Woods
+- Omoinotake - 幾億光年
