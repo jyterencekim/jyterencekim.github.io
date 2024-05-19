@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: 'LLM, 이데아를 이해한다는 것' 
+title: 'LLM - 이데아를 이해?' 
 categories:
     - thoughts
 ---
