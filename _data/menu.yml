@@ -8,7 +8,7 @@ entries:
     url: archive.html
   - title: recent
     post_list:
-      limit: 15
+      limit: 100
       show_more: true
       show_more_text: show more
       show_more_url: archive.html
