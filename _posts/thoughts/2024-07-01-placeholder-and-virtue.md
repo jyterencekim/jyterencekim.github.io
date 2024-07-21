@@ -1,5 +1,4 @@
 --- 
---- 
 layout: post 
 title: 'Placeholders and virtue' 
 categories:
