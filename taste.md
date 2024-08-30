@@ -215,3 +215,4 @@ Not necessarily in order of preference
 - Fresh Body Shop - Don't Envy You
 - m.o.v.e - Romancing Train
 - Lia - 夏影
+- 유승준 - 연가
