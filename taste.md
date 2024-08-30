@@ -22,6 +22,7 @@ Not necessarily in order of preference
     - Brighton Gay Men's Chorus
 - Terence Uphoff - Twee Vaders (Kinderen voor Kinderen) 
 - Go_A - ШУМ, Shum
+- Kazaky - Love
 - New Order - Bizarre Love Triangle
 - SOPHIE - Immaterial, It’s Okay To Cry
 - Charlie XCX - Unlock It, visions, Vroom Vroom, Femmebot
