@@ -198,6 +198,7 @@ Not necessarily in order of preference
 - Zedd, Foxes - Clarity
 - Clean Bandit - Rather Be, Symphony
 - Paloma Faith - Stargazer
+- Christopher Tin - Baba Yetu
 - Tegan and Sara - Goodbye, Goodbye; Body Work; Closer
 - The Chainsmokers - Don't Let Me Down (Illenium Remix)
 - LeAnn Rimes - Can't Fight The Moonlight
