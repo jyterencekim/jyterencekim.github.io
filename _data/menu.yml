@@ -6,15 +6,15 @@ entries:
         url: https://github.com/jyterencekim
   - title: all
     url: archive.html
-  - title: recent
-    post_list:
-      limit: 100
-      show_more: true
-      show_more_text: show more
-      show_more_url: archive.html
   - title: garnet crow
     url: garnet-crow
   - title: quotes
     url: quotes.html
   - title: taste
     url: taste.html
+  - title: recent
+    post_list:
+      limit: 100
+      show_more: true
+      show_more_text: show more
+      show_more_url: archive.html
