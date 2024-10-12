@@ -218,3 +218,4 @@ Not necessarily in order of preference
 - m.o.v.e - Romancing Train
 - Lia - 夏影
 - 유승준 - 연가
+- Chappell Roan - Good Luck, Babe! 
