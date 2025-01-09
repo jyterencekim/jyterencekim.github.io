@@ -104,6 +104,7 @@ Not necessarily in order of preference
 - Leon - You and I
 - 박봄 - You and I
 - 버둥 - 이별
+- 中島 美嘉 - 僕が死のうと思ったのは
 - B1A4 - O.K
 - The Corrs - Breathless, Would You Be Happier
 - Caroline Polachek 
