@@ -218,7 +218,9 @@ Not necessarily in order of preference
 - Omoinotake - 幾億光年
 - Fresh Body Shop - Don't Envy You
 - m.o.v.e - Romancing Train
+- BABYMONSTER - FOREVER
 - Lia - 夏影
 - 유승준 - 연가
 - Chappell Roan - Good Luck, Babe!
 - 원미연 - 이별여행
+- 연우영 - Set My Life Free
