@@ -226,3 +226,4 @@ Not necessarily in order of preference
 - 연우영 - Set My Life Free
 - Grimes ft. Janelle Monáe - Venus Fly
 - Royalty - Brown Eyed Girl
+- 유키카 - 서울여자
