@@ -228,3 +228,4 @@ Not necessarily in order of preference
 - Royalty - Brown Eyed Girl
 - 유키카 - 서울여자
 - 華原朋美 - I Believe
+- 謝金燕 Jeannie Hsieh - 姐姐
