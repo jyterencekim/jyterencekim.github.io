@@ -51,6 +51,7 @@ Not necessarily in order of preference
 - Every Little Thing - Grip!, Forever Yours, Dear My Friend, Yurayura, Aino Kakera, fragile
 - The Cranberries - Just My Imagination
 - 체리필터 - Happy Day, 유쾌한 마녀, etc.
+- miss A - Bad Girl Good Girl, Love Alone
 - Erasure - Always
 - Mr. Children - Shirushi
 - HAIM - Falling, etc.
