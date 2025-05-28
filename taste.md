@@ -107,7 +107,7 @@ Not necessarily in order of preference
 - 버둥 - 이별
 - 中島 美嘉 - 僕が死のうと思ったのは
 - B1A4 - O.K
-- The Corrs - Breathless, Would You Be Happier
+- The Corrs - Breathless, Would You Be Happier, Summer Sunshine
 - Caroline Polachek 
     - So hot you’re hurting my feelings
     - Welcome To My Island
