@@ -138,7 +138,7 @@ Not necessarily in order of preference
 - PRISTIN - WEE WOO
 - 크레용팝 - Dancing Queen 2.0
 - TWICE - OOH-AHH하게
-- 브로콜리 너마저 - 분향
+- 브로콜리 너마저 - 분향, 보편적인 노래
 - Dorian Electra - Man To Man
 - Yaeji - Done (Let's Get It)
 - SPITZ スピッツ - ロビンソン
