@@ -37,6 +37,7 @@ Not necessarily in order of preference
 - 槇原敬之 
    - どんなときも。
    - もう恋なんてしない
+- m.o.v.e - Romancing Train
 - Lupe Fiasco - The show goes on
 - Billy Joel - We didn’t start the fire
 - Ava Max - So Am I
@@ -139,6 +140,7 @@ Not necessarily in order of preference
 - 크레용팝 - Dancing Queen 2.0
 - TWICE - OOH-AHH하게
 - 브로콜리 너마저 - 분향, 보편적인 노래
+- K.A.R.D - Don't Recall
 - Dorian Electra - Man To Man
 - Yaeji - Done (Let's Get It)
 - SPITZ スピッツ - ロビンソン
@@ -218,7 +220,6 @@ Not necessarily in order of preference
 - Jonathan Groff - Lost in the Woods
 - Omoinotake - 幾億光年
 - Fresh Body Shop - Don't Envy You
-- m.o.v.e - Romancing Train
 - BABYMONSTER - FOREVER
 - Lia - 夏影
 - 유승준 - 연가
