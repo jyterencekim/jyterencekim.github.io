@@ -222,6 +222,7 @@ Not necessarily in order of preference
 - BABYMONSTER - FOREVER
 - Lia - 夏影
 - 유승준 - 연가
+- 세븐틴 - 울고 싶지 않아
 - Chappell Roan - Good Luck, Babe!
 - 원미연 - 이별여행
 - 연우영 - Set My Life Free
