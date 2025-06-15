@@ -233,3 +233,4 @@ Not necessarily in order of preference
 - 華原朋美 - I Believe
 - 謝金燕 Jeannie Hsieh - 姐姐
 - Missy Elliott - Get Ur Freak On
+- AAA - 負けない心 
