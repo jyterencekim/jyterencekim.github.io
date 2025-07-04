@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: 'Why I like cheap catchy songs'
+title: '내가 싸구려 캐치송을 좋아하는 이유'
 categories:
     - thoughts
 ---
@@ -19,6 +19,11 @@ categories:
 그리고 그 쾌가 대량생산되고 복제될 수 있잖아. 예술의 <의미>에 관한 어떤 진지한 생각도 없이. 
 작곡가들이 이 묘한 레시피를 노래 속에 녹여내서 똑같이 영험한 힘을 가진 곡들을 무수한 변주로 만들어낼 수 있다는 게 멋지지 않니.
 
+--- 
+layout: post 
+title: 'Why I like cheap catchy songs'
+categories:
+    - thoughts
 ---
 
 I like cheap catchy songs in a four-on-the-floor rhythm. 
