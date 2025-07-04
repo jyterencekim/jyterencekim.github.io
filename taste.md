@@ -236,4 +236,5 @@ Not necessarily in order of preference
 - 謝金燕 Jeannie Hsieh - 姐姐
 - Missy Elliott - Get Ur Freak On
 - みくるー · びんすー - Wonderland 
-- AAA - 負けない心 
+- AAA - 負けない心
+- 베이비복스 - 남자에게 
