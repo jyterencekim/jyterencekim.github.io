@@ -163,7 +163,7 @@ Not necessarily in order of preference
 - RAC - Ready For It (feat. St. Lucia)
 - Roma Radz - Token
 - Wonder Girls - I Feel You
-- 髙橋真梨子 - EVERYTIME I FEEL YOUR HEART -君と生きたい-, Gomenne
+- 髙橋真梨子 - EVERYTIME I FEEL YOUR HEART -君と生きたい-, ごめんね・・・
 - TRF - BOY MEETS GIRL, CRAZY GONNA CRAZY
 - 윤상 - 날 위로하려거든
 - Dennis Sheperd & Ronski Speed - Karoshi
