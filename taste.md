@@ -125,6 +125,7 @@ Not necessarily in order of preference
 - Karlos Rosé - No Dejo De Amarte
 - Pháo - 2 phút hơn feat. Wack (Official Music Video)
 - Loreen - Euphoria
+- 나미 - 보여(Voyeur)
 - Kamferdrops - Bög, Fuck you, jag älskar dig
 - ゆず - 栄光の架橋
 - Perfume - Pick me up
