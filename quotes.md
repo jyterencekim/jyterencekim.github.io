@@ -13,6 +13,8 @@ Don't, for heaven's sake, be afraid of talking nonsense! But you must pay attent
 
 The older I grow the more I realize how terribly difficult it is for people to understand each other, and I think that what misleads one is the fact that they all look so much like each other. If some people looked like elephants and others like cats, or fish, one wouldn’t expect them to understand each other and things would look much more like what they really are. - Ludwig Wittgenstein
 
+나이가 들수록 제가 느끼는 건, 사람들이 서로를 이해하는 게 지독히도 어렵다는 사실입니다. 전 사람들이 착각에 빠지는 이유가 서로가 서로를 너무나도 닮았기 때문이라고 생각합니다. 만약 어떤 사람은 코끼리처럼 생기고 또 다른 사람은 고양이나 물고기처럼 생겼더라면, 사람들은 서로를 이해하길 기대하지도 않을 것이요 서로의 본모습에 더욱 더 가까운 진실을 보게 될 겁니다. The older I grow the more I realize how terribly difficult it is for people to understand each other, and I think that what misleads one is the fact that they all look so much like each other. If some people looked like elephants and others like cats, or fish, one wouldn’t expect them to understand each other and things would look much more like what they really are. - Ludwig Wittgenstein (in a letter to Sraffa)
+
 Where others move on, there I remain standing. - Ludwig Wittgenstein (MS 136 80a: 8.1.1948)
 
 I want to regard man here as an animal; as a primitive being to which one grants instinct but not ratiocination. As a creature in a primitive state. Any logic good enough for a primitive means of communication needs no apology from us. Language did not emerge from some kind of ratiocination. - Ludwig Wittgenstein
