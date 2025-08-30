@@ -239,4 +239,6 @@ Not necessarily in order of preference
 - みくるー · びんすー - Wonderland 
 - AAA - 負けない心
 - 10cm - HELP
-- 베이비복스 - 남자에게 
+- 베이비복스 - 남자에게
+- シャ乱Q -上･京･物･語
+- EOS - 넌 남이 아냐
