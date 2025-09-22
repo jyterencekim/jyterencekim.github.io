@@ -27,6 +27,7 @@ Not necessarily in order of preference
 - SOPHIE - Immaterial, It’s Okay To Cry
 - Charlie XCX - Unlock It, visions, Vroom Vroom, Femmebot
 - 奥井亜紀 - Wind Climbing ～風にあそばれて～
+- 유채영 - Emotion, 좋아
 - A. G. Cook
 - QT - Hey QT
 - Depeche Mode - People are people, Shake the disease, Everything counts
