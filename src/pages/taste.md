@@ -1,0 +1,166 @@
+---
+layout: ../layouts/Main.astro
+pageTitle: "Taste Log"
+pageDesc: "Songs and performances I keep coming back to."
+---
+
+어떤 식으로든 기억과 집착이 남은 가락과 영상들
+
+Not necessarily in order of preference
+
+- GARNET CROW
+  - almost all of its songs till 2009
+- 정경화 - 나에게로의 초대, 지상에서 영원으로
+- 박인희 - 모닥불
+- 녹색지대 - 사랑을 할 거야
+- 무한궤도 - 그대에게
+- 신해철 - 나에게 쓰는 편지, 내 마음 깊은 곳의 너
+- N.EX.T - 날아라 병아리
+- 조하문 - 이 밤을 다시 한 번
+- 변진섭 - 새들처럼
+- 이상은
+- 소유진 - 파라파라 퀸
+  - cf. Denise - Passion in the night, etc. (Super Eurobeat)
+- Don Henley - The Boys Of Summer
+- 林原めぐみ - Give a reason, Breeze, Plenty of Grit, Front Breaking
+- You Make Me Proud
+  - 한국어본 (아이다호 - 어느 멋진 날)
+  - Brighton Gay Men's Chorus
+- Terence Uphoff - Twee Vaders (Kinderen voor Kinderen)
+- Go_A - ШУМ, Shum
+- Kazaky - Love
+- New Order - Bizarre Love Triangle
+- SOPHIE - Immaterial, It’s Okay To Cry
+- Charlie XCX - Unlock It, visions, Vroom Vroom, Femmebot
+- 奥井亜紀 - Wind Climbing ～風にあそばれて～
+- 유채영 - Emotion, 좋아
+- A. G. Cook
+- QT - Hey QT
+- Depeche Mode - People are people, Shake the disease, Everything counts
+- Selena Gomez and the Scene - Naturally
+- 레이지본 - Do It Yourself
+- 오마이걸 - WINDY DAY
+- 高橋洋子 - 残酷な天使のテーゼ
+- 槇原敬之
+  - どんなときも。
+  - もう恋なんてしない
+- m.o.v.e - Romancing Train
+- Lupe Fiasco - The show goes on
+- Billy Joel - We didn’t start the fire
+- Ava Max - So Am I
+- Neil Sekada - Solitaire
+- Pet Shop Boys - Integral
+- MUNA - I Know a Place, Number One Fan
+- 윤복희 - 여러분
+- スキマスイッチ - 全力少年
+- 주주클럽 - 센티멘탈, 나는 나
+- Llwyd - dryflower
+- Cascada - Everytime we touch
+- Every Little Thing - Grip!, Forever Yours, Dear My Friend, Yurayura, Aino Kakera, fragile
+- The Cranberries - Just My Imagination
+- 체리필터 - Happy Day, 유쾌한 마녀, etc.
+- miss A - Bad Girl Good Girl, 다른 남자 말고 너, Love Alone
+- Erasure - Always
+- Mr. Children - Shirushi
+- HAIM - Falling, etc.
+- Chicago - You’re the inspiration
+- 백재성 · 박세아 - 희망 (그랜드체이스)
+- 이강산 - 하늘나라 동화 (제9회 창작동요제)
+- Enya - Book of Days
+- SHINee - Love Should Go On, JoJo
+- SUNDAY - ウソツキBoy
+- 브라운 아이드 걸스 - LOVE
+- 鬼束ちひろ
+  - 유성군
+  - 나와 왈츠를
+  - 월광
+  - CROW
+  - Shine
+  - 書きかけの手紙
+- George Benson - Nothing's gonna change my love for you
+- Steps - Love's Got a Hold On My Heart
+- Laura Pausini - La Solitudine
+- Rigoberta Bandini
+  - Too Many Drugs
+  - PERRA
+  - Ay Mamá
+  - A ver qué pasa
+- 정태춘, 박은옥 - 92년 장마, 종로에서
+- 이박사 - 학교매점 출출해
+- ELO - Twilight
+- Zendaya - Replay
+- Rina Sawayama
+- V6 - Change the world
+- 德永英明 - 壊れかけのRadio
+- DJ Sammy - Heaven, Why
+- SHYGIRL - BB, Firefly
+- The Veronicas - Untouched
+- Rebecca Black - Friday
+- Kim Wilde - You Came
+- a-ha - Take on me
+- Sigrid
+- Darude - Sandstorm
+- La Casa Azul - Podría Ser Peor
+- シャ乱Q - 上・京・物・語
+- 티아라 - yayaya
+- fromis_9 - Love Bomb
+- DIE ANTWOORD - BABY'S ON FIRE
+- Whitney Houston - I Wanna Dance With Somebody
+- M.I.A - Y.A.L.A
+- My Chemical Romance - Welcome to the Black Parade
+- Backstreet Boys - Shape Of My Heart
+- Jenna Rose - My Jeans (ft. Baby Triggy)
+- Leon - You and I
+- 박봄 - You and I
+- 버둥 - 이별
+- 中島 美嘉 - 僕が死のうと思ったのは
+- B1A4 - O.K
+- The Corrs - Breathless, Would You Be Happier, Summer Sunshine
+- Caroline Polachek
+  - So hot you’re hurting my feelings
+  - Welcome To My Island
+  - Breathless
+- Bon Jovi - Livin’ On A Prayer
+- Kylie Minogue - All The Lovers (Video)
+- 백지영 - 사랑 안 해 (Video)
+- 中島みゆき - ファイト!
+- angela - Shangri-La
+- ALI PROJECT - 赤と黒
+- 페퍼톤즈
+- 서태지 - Live Wire
+- Cristian Castro - Azul
+- Karlos Rosé - No Dejo De Amarte
+- Pháo - 2 phút hơn feat. Wack (Official Music Video)
+- Loreen - Euphoria
+- 나미 - 보여(Voyeur)
+- Kamferdrops - Bög, Fuck you, jag älskar dig
+- ゆず - 栄光の架橋
+- Perfume - Pick me up
+- 그림 (The 林) - 판 Project II
+- 손담비 - queen
+- SS501 - Love Like This
+- 걸스데이 - 한 번만 안아줘, 잘해줘봐야, 나를 잊지마요
+- AOA - 심쿵해
+- 써니힐 - 백마는 오고 있는가
+- AFTER SCHOOL - Bang!, Shampoo, DIVA, Flashback
+- 청하 - Roller Coaster
+- PRISTIN - WEE WOO
+- 크레용팝 - Dancing Queen 2.0
+- TWICE - OOH-AHH하게
+- 브로콜리 너마저 - 분향, 보편적인 노래
+- K.A.R.D - Don't Recall
+- Dorian Electra - Man To Man
+- Yaeji - Done (Let's Get It)
+- SPITZ スピッツ - ロビンソン
+- Smooth Ace - aitaine, SHINE
+- いとおしい人のために / 사랑하는 사람을 위하여
+- King Gnu
+- Dorian Electra
+- Sean Banan - Va var det han Saade
+- Petra Marklund - Händerna mot himlen
+- Timoteij - Tabu
+- KOTOKO - Re-sublimity, Agony
+- Sega Bodega - Only Seeing God When I Come
+- 윤미래
+- Sean Banan - Va var det han Saade
+- 풍뎅이 - 잘 시간이 어딨어
