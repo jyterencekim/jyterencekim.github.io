@@ -1,0 +1,50 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Card from "@/components/Card.astro";
+import { getCollection } from "astro:content";
+import getSortedPosts from "@/utils/getSortedPosts";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("blog");
+
+  // Extract unique categories
+  const categories = new Set<string>();
+  posts.forEach(post => {
+    const category = post.id.split("/")[0];
+    if (category) {
+      categories.add(category);
+    }
+  });
+
+  return Array.from(categories).map(category => ({
+    params: { category },
+  }));
+}
+
+const { category } = Astro.params;
+const posts = await getCollection("blog");
+const sortedPosts = getSortedPosts(posts);
+const categoryPosts = sortedPosts.filter(post =>
+  post.id.startsWith(`${category}/`)
+);
+---
+
+<Layout>
+  <Header />
+  <main id="main-content" class="mx-auto w-full max-w-app px-4 pb-4">
+    <h1 class="text-2xl font-semibold sm:text-3xl mt-8">{category}</h1>
+
+    {categoryPosts.length > 0 ? (
+      <ul class="mt-6">
+        {categoryPosts.map(post => (
+          <Card variant="h3" {...post} />
+        ))}
+      </ul>
+    ) : (
+      <p class="mt-4">No posts yet.</p>
+    )}
+  </main>
+  <Footer />
+</Layout>

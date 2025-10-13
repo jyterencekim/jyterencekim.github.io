@@ -1,0 +1,45 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import { getCollection } from "astro:content";
+import getSortedPosts from "@/utils/getSortedPosts";
+
+const posts = await getCollection("blog");
+const sortedPosts = getSortedPosts(posts);
+
+// Extract categories from post IDs (e.g., "thoughts/post-name" -> "thoughts")
+const categoryMap = new Map<string, number>();
+sortedPosts.forEach(post => {
+  const category = post.id.split("/")[0];
+  if (category) {
+    categoryMap.set(category, (categoryMap.get(category) || 0) + 1);
+  }
+});
+
+// Sort categories alphabetically
+const categories = Array.from(categoryMap.entries())
+  .sort((a, b) => a[0].localeCompare(b[0]));
+---
+
+<Layout>
+  <Header />
+  <main id="main-content" class="mx-auto w-full max-w-app px-4 pb-4">
+    <h1 class="text-2xl font-semibold sm:text-3xl mt-8">categories</h1>
+
+    {categories.length > 0 ? (
+      <ul class="mt-6">
+        {categories.map(([category, count]) => (
+          <li class="my-1">
+            <a href={`/categories/${category}`} class="hover:underline">
+              {category} <span class="opacity-60">({count})</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p class="mt-4">No categories yet.</p>
+    )}
+  </main>
+  <Footer />
+</Layout>
