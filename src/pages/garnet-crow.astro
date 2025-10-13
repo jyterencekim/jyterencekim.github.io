@@ -1,0 +1,32 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Card from "@/components/Card.astro";
+import { getCollection } from "astro:content";
+import getSortedPosts from "@/utils/getSortedPosts";
+
+const posts = await getCollection("blog");
+const sortedPosts = getSortedPosts(posts);
+const garnetCrowPosts = sortedPosts.filter(post =>
+  post.id.startsWith("garnet-crow/")
+);
+---
+
+<Layout>
+  <Header />
+  <main id="main-content" class="mx-auto w-full max-w-app px-4 pb-4">
+    <h1 class="text-2xl font-semibold sm:text-3xl mt-8">GARNET CROW</h1>
+
+    {garnetCrowPosts.length > 0 ? (
+      <ul class="mt-6">
+        {garnetCrowPosts.map(post => (
+          <Card variant="h3" {...post} />
+        ))}
+      </ul>
+    ) : (
+      <p class="mt-4">No posts yet.</p>
+    )}
+  </main>
+  <Footer />
+</Layout>

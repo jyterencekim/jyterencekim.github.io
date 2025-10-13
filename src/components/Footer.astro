@@ -1,0 +1,11 @@
+---
+export interface Props {
+  noMarginTop?: boolean;
+}
+
+const { noMarginTop = false } = Astro.props;
+---
+
+<footer class:list={["w-full border-t border-border", { "mt-auto": !noMarginTop }]}>
+  <div class="mx-auto max-w-app px-4 py-6"></div>
+</footer>
