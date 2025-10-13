@@ -1,0 +1,81 @@
+---
+import { SITE } from "@/config";
+
+const { pathname } = Astro.url;
+
+const currentPath =
+  pathname.endsWith("/") && pathname !== "/" ? pathname.slice(0, -1) : pathname;
+
+const isActive = (path: string) => {
+  const currentPathArray = currentPath.split("/").filter(p => p.trim());
+  const pathArray = path.split("/").filter(p => p.trim());
+  return currentPath === path || currentPathArray[0] === pathArray[0];
+};
+---
+
+<header>
+  <a
+    id="skip-to-content"
+    href="#main-content"
+    class="absolute start-16 -top-full z-50 bg-background px-3 py-2 text-accent backdrop-blur-lg transition-all focus:top-4"
+  >
+    Skip to content
+  </a>
+  <div
+    id="nav-container"
+    class="mx-auto flex max-w-app flex-col items-center justify-between sm:flex-row"
+  >
+    <div
+      id="top-nav-wrap"
+      class="relative flex w-full items-start justify-between bg-background p-4 sm:py-6"
+    >
+      <div class="flex-1">
+        <a
+          href="/"
+          class="block py-1 text-3xl leading-8 font-bold sm:text-5xl sm:leading-none pb-4"
+        >
+          {SITE.title}
+        </a>
+        <nav id="nav-menu" class="mt-4 mt-4">
+          <ul class="flex flex-col gap-1">
+            <li>
+              <a href="/garnet-crow" class:list={{ "active-nav": isActive("/garnet-crow") }}>
+                garnet crow
+              </a>
+            </li>
+            <li>
+              <a href="/quotes" class:list={{ "active-nav": isActive("/quotes") }}>
+                quotes
+              </a>
+            </li>
+            <li>
+              <a href="/taste" class:list={{ "active-nav": isActive("/taste") }}>
+                taste
+              </a>
+            </li>
+            <li>
+              <a href="/archives" class:list={{ "active-nav": isActive("/archives") }}>
+                all
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      
+      {
+        SITE.lightAndDarkMode && (
+          <button
+            id="theme-btn"
+            class="focus-outline p-2"
+            title="Toggles light & dark"
+            aria-label="auto"
+            aria-live="polite"
+          >
+            <span class="dark:hidden">☀</span>
+            <span class="hidden dark:inline">☾</span>
+          </button>
+        )
+      }
+    </div>
+  </div>
+</header>

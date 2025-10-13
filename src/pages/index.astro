@@ -1,0 +1,51 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import LinkButton from "@/components/LinkButton.astro";
+import Card from "@/components/Card.astro";
+import getSortedPosts from "@/utils/getSortedPosts";
+import { SITE } from "@/config";
+
+const posts = await getCollection("blog");
+const sortedPosts = getSortedPosts(posts);
+---
+
+<Layout>
+  <Header />
+  <main id="main-content" data-layout="index">
+    <section id="hero" class="pt-4 pb-6">
+      <div class="mb-4">
+        <p class="mb-2">obsessed with Wittgenstein, admires quine, loves beer, and puts garnet crow and cheap catchy songs on replay</p>
+      </div>
+    </section>
+    <section id="recent-posts" class="pt-4 pb-6">
+      <h2 class="text-xl font-semibold mb-4">recent</h2>
+      <ul>
+        {sortedPosts.map(
+          (data, index) =>
+            index < SITE.postPerIndex && <Card variant="h3" {...data} />
+        )}
+      </ul>
+      {sortedPosts.length > SITE.postPerIndex && (
+        <div class="mt-4">
+          <LinkButton href="/archives/" class="underline hover:no-underline">
+            show more
+          </LinkButton>
+        </div>
+      )}
+    </section>
+  </main>
+  <Footer />
+</Layout>
+
+<script>
+  document.addEventListener("astro:page-load", () => {
+    const indexLayout = (document.querySelector("#main-content") as HTMLElement)
+      ?.dataset?.layout;
+    if (indexLayout) {
+      sessionStorage.setItem("backUrl", "/");
+    }
+  });
+</script>
