@@ -5,14 +5,8 @@ import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
 import Tag from "@/components/Tag.astro";
 import Datetime from "@/components/Datetime.astro";
-import EditPost from "@/components/EditPost.astro";
-import ShareLinks from "@/components/ShareLinks.astro";
-import BackButton from "@/components/BackButton.astro";
-import BackToTopButton from "@/components/BackToTopButton.astro";
 import { getPath } from "@/utils/getPath";
 import { slugifyStr } from "@/utils/slugify";
-import IconChevronLeft from "@/assets/icons/IconChevronLeft.svg";
-import IconChevronRight from "@/assets/icons/IconChevronRight.svg";
 import { SITE } from "@/config";
 
 export interface Props {
@@ -32,7 +26,6 @@ const {
   modDatetime,
   timezone,
   tags,
-  hideEditPost,
 } = post.data;
 
 const { Content } = await render(post);
@@ -84,13 +77,9 @@ const nextPost =
 
 <Layout {...layoutProps}>
   <Header />
-  <BackButton />
   <main
     id="main-content"
-    class:list={[
-      "mx-auto w-full max-w-app px-4 pb-12",
-      { "mt-8": !SITE.showBackButton },
-    ]}
+    class="mx-auto w-full max-w-app px-4 pb-12 mt-8"
     data-pagefind-body
   >
     <h1
@@ -101,14 +90,6 @@ const nextPost =
     </h1>
     <div class="my-2 flex items-center gap-2">
       <Datetime {pubDatetime} {modDatetime} {timezone} size="lg" />
-      <span
-        aria-hidden="true"
-        class:list={[
-          "max-sm:hidden",
-          { hidden: !SITE.editPost.enabled || hideEditPost },
-        ]}>|</span
-      >
-      <EditPost {hideEditPost} {post} class="max-sm:hidden" />
     </div>
     <article
       id="article"
@@ -117,19 +98,9 @@ const nextPost =
       <Content />
     </article>
 
-    <hr class="my-8 border-dashed" />
-
-    <EditPost class="sm:hidden" {hideEditPost} {post} />
-
-    <ul class="mt-4 mb-8 sm:my-8">
+    <ul class="mt-8 mb-8 sm:my-8">
       {tags.map(tag => <Tag tag={slugifyStr(tag)} tagName={tag} />)}
     </ul>
-
-    <BackToTopButton />
-
-    <ShareLinks />
-
-    <hr class="my-6 border-dashed" />
 
     <!-- Previous/Next Post Buttons -->
     <div data-pagefind-ignore class="grid grid-cols-1 gap-6 sm:grid-cols-2">
@@ -137,12 +108,11 @@ const nextPost =
         prevPost && (
           <a
             href={getPath(prevPost.id, prevPost.filePath)}
-            class="flex w-full gap-1 hover:opacity-75"
+            class="flex w-full gap-1 hover:underline"
           >
-            <IconChevronLeft class="inline-block flex-none rtl:rotate-180" />
             <div>
-              <span>Previous Post</span>
-              <div class="text-sm text-accent/85">{prevPost.title}</div>
+              <span>← Previous: </span>
+              <span class="text-sm">{prevPost.title}</span>
             </div>
           </a>
         )
@@ -151,17 +121,20 @@ const nextPost =
         nextPost && (
           <a
             href={getPath(nextPost.id, nextPost.filePath)}
-            class="flex w-full justify-end gap-1 text-end hover:opacity-75 sm:col-start-2"
+            class="flex w-full justify-end gap-1 text-end hover:underline sm:col-start-2"
           >
             <div>
-              <span>Next Post</span>
-              <div class="text-sm text-accent/85">{nextPost.title}</div>
+              <span>Next: </span>
+              <span class="text-sm">{nextPost.title}</span>
+              <span> →</span>
             </div>
-            <IconChevronRight class="inline-block flex-none rtl:rotate-180" />
           </a>
         )
       }
     </div>
+
+    <!-- Utterances Comments -->
+    <div class="mt-12" id="utterances-container"></div>
   </main>
   <Footer />
 </Layout>
@@ -285,4 +258,42 @@ const nextPost =
   document.addEventListener("astro:after-swap", () =>
     window.scrollTo({ left: 0, top: 0, behavior: "instant" })
   );
+
+  /* Load Utterances comments */
+  function loadUtterances() {
+    const container = document.getElementById("utterances-container");
+    if (!container) return;
+
+    // Clear existing comments
+    container.innerHTML = "";
+
+    const theme = document.documentElement.getAttribute("data-theme") === "dark"
+      ? "github-dark"
+      : "github-light";
+
+    const script = document.createElement("script");
+    script.src = "https://utteranc.es/client.js";
+    script.setAttribute("repo", "jyterencekim/jyterencekim.github.io");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", theme);
+    script.setAttribute("crossorigin", "anonymous");
+    script.setAttribute("async", "true");
+
+    container.appendChild(script);
+  }
+
+  loadUtterances();
+
+  // Reload utterances when theme changes
+  document.addEventListener("astro:after-swap", loadUtterances);
+
+  // Listen for theme button clicks
+  const observer = new MutationObserver(() => {
+    loadUtterances();
+  });
+
+  observer.observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ["data-theme"]
+  });
 </script>

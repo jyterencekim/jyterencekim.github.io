@@ -1,15 +1,13 @@
 ---
-layout: ../layouts/Main.astro
-pageTitle: "Taste Log"
-pageDesc: "Songs and performances I keep coming back to."
+layout: ../layouts/AboutLayout.astro
+title: "taste"
 ---
-
 어떤 식으로든 기억과 집착이 남은 가락과 영상들
 
 Not necessarily in order of preference
 
 - GARNET CROW
-  - almost all of its songs till 2009
+   - almost all of its songs till 2009
 - 정경화 - 나에게로의 초대, 지상에서 영원으로
 - 박인희 - 모닥불
 - 녹색지대 - 사랑을 할 거야
@@ -20,13 +18,13 @@ Not necessarily in order of preference
 - 변진섭 - 새들처럼
 - 이상은
 - 소유진 - 파라파라 퀸
-  - cf. Denise - Passion in the night, etc. (Super Eurobeat)
+    - cf. Denise - Passion in the night, etc. (Super Eurobeat)
 - Don Henley - The Boys Of Summer
 - 林原めぐみ - Give a reason, Breeze, Plenty of Grit, Front Breaking
 - You Make Me Proud
-  - 한국어본 (아이다호 - 어느 멋진 날)
-  - Brighton Gay Men's Chorus
-- Terence Uphoff - Twee Vaders (Kinderen voor Kinderen)
+    - 한국어본 (아이다호 - 어느 멋진 날)
+    - Brighton Gay Men's Chorus
+- Terence Uphoff - Twee Vaders (Kinderen voor Kinderen) 
 - Go_A - ШУМ, Shum
 - Kazaky - Love
 - New Order - Bizarre Love Triangle
@@ -41,9 +39,9 @@ Not necessarily in order of preference
 - 레이지본 - Do It Yourself
 - 오마이걸 - WINDY DAY
 - 高橋洋子 - 残酷な天使のテーゼ
-- 槇原敬之
-  - どんなときも。
-  - もう恋なんてしない
+- 槇原敬之 
+   - どんなときも。
+   - もう恋なんてしない
 - m.o.v.e - Romancing Train
 - Lupe Fiasco - The show goes on
 - Billy Joel - We didn’t start the fire
@@ -71,20 +69,20 @@ Not necessarily in order of preference
 - SUNDAY - ウソツキBoy
 - 브라운 아이드 걸스 - LOVE
 - 鬼束ちひろ
-  - 유성군
-  - 나와 왈츠를
-  - 월광
-  - CROW
-  - Shine
-  - 書きかけの手紙
+    - 유성군
+    - 나와 왈츠를
+    - 월광
+    - CROW
+    - Shine
+    - 書きかけの手紙
 - George Benson - Nothing's gonna change my love for you
 - Steps - Love's Got a Hold On My Heart
 - Laura Pausini - La Solitudine
 - Rigoberta Bandini
-  - Too Many Drugs
-  - PERRA
-  - Ay Mamá
-  - A ver qué pasa
+    - Too Many Drugs
+    - PERRA
+    - Ay Mamá
+    - A ver qué pasa
 - 정태춘, 박은옥 - 92년 장마, 종로에서
 - 이박사 - 학교매점 출출해
 - ELO - Twilight
@@ -116,10 +114,10 @@ Not necessarily in order of preference
 - 中島 美嘉 - 僕が死のうと思ったのは
 - B1A4 - O.K
 - The Corrs - Breathless, Would You Be Happier, Summer Sunshine
-- Caroline Polachek
-  - So hot you’re hurting my feelings
-  - Welcome To My Island
-  - Breathless
+- Caroline Polachek 
+    - So hot you’re hurting my feelings
+    - Welcome To My Island
+    - Breathless 
 - Bon Jovi - Livin’ On A Prayer
 - Kylie Minogue - All The Lovers (Video)
 - 백지영 - 사랑 안 해 (Video)
@@ -164,3 +162,89 @@ Not necessarily in order of preference
 - 윤미래
 - Sean Banan - Va var det han Saade
 - 풍뎅이 - 잘 시간이 어딨어
+- 翠玲 - 恋をするたびに傷つきやすく
+- 小松未歩 - 謎
+- Magdalena Bay - Nothing Baby, U Wanna Dance?
+- RAC - Ready For It (feat. St. Lucia)
+- Roma Radz - Token
+- Wonder Girls - I Feel You
+- 髙橋真梨子 - EVERYTIME I FEEL YOUR HEART -君と生きたい-, ごめんね・・・
+- TRF - BOY MEETS GIRL, CRAZY GONNA CRAZY
+- 윤상 - 날 위로하려거든
+- Dennis Sheperd & Ronski Speed - Karoshi
+- Jonas Steur - Simple pleasures
+- Enrique Iglesias - Dímelo
+- The Flaming Lips - What is the Light?, Yoshimi Battles the Pink Robots
+- 3OH!3 - Double Vision
+- Lastier - Dive into shine
+- 渡辺美里 (Misato Watanabe)　- My Revolution
+- Iannis Xenakis
+- 木村由姫 - LOVE & JOY
+- Gjon's Tears - Tout l'Univers
+- Bat For Lashes - All Your Gold
+- YELLE - Moteur Action (A. G. Cook & SOPHIE remix), À cause des garçons (Tepr Remix)
+- Le Flex - Out of your mind
+- Reba McEntire - Consider Me Gone
+- Daler Mehndi - Tunak Tunak Tun
+- Desi Boyz - Subha Hone Na De (Feat. Akshay Kumar, John Abraham)
+- Priyanka Chopra - Exotic ft. Pitbull
+- Jennifer Lopez - On the Floor
+- Janet Jackson - Heartbeat Love
+- Penn Masala - Is Pal Mein
+- As One - Day by Day
+- 박정현 - You Mean Everything To Me, 치카치카, 꿈에
+- 제이 - 어제처럼
+- 파란 - 첫사랑
+- M2M - Everything
+- 슈가도넛(SUGAR DONUT) - Loser
+- 드라마 <카이스트> OST - 마음으로 그리는 세상
+- 대한항공 CM - 하늘 가득히 사랑을 (2000)
+- TVXQ - Here I Stand
+- WEDNESDAY CAMPANELLA - Buckingham
+- Hidefumi Kenmochi - Town work
+- ATARASHII GAKKO! – OTONABLUE, Tokyo Calling, Toryanse
+- 하리수 - Temptation
+- nosaj thing - nightcrawler, for the light
+- Iglooghost - Drown U, Infinite Mint
+- Zedd, Foxes - Clarity
+- Clean Bandit - Rather Be, Symphony
+- Paloma Faith - Stargazer
+- Christopher Tin - Baba Yetu
+- Tegan and Sara - Goodbye, Goodbye; Body Work; Closer
+- The Chainsmokers - Don't Let Me Down (Illenium Remix)
+- LeAnn Rimes - Can't Fight The Moonlight
+- GROSSSTADTGEFLÜSTER - FEIERABEND, Ich kündige
+- CHVRCHES - Leave A Trace, The Mother We Share
+- Shura - What's it gonna be?
+- Fin.K.L - True Love, Now, 내 남자친구에게, 늘 지금처럼 (이예린)
+- As One - Day by Day
+- 임현정 - 사랑은 봄비처럼 이별은 겨울비처럼
+- 박미경 - 이브의 경고, 기억 속의 먼 그대에게
+- 서문탁 - 사미인곡
+- 솔리드 - 이 밤의 끝을 잡고
+- 박효신 - 해줄 수 없는 일, 그곳에 서서
+- Idina Menzel, Evan Rachel Wood - Show Yourself
+- Jonathan Groff - Lost in the Woods
+- Omoinotake - 幾億光年
+- Fresh Body Shop - Don't Envy You
+- BABYMONSTER - FOREVER
+- Lia - 夏影
+- Maaya Sakamoto - Hemisphere
+- 유승준 - 연가
+- 세븐틴 - 울고 싶지 않아
+- Chappell Roan - Good Luck, Babe!
+- 원미연 - 이별여행
+- 연우영 - Set My Life Free
+- Grimes ft. Janelle Monáe - Venus Fly
+- Royalty - Brown Eyed Girl
+- 유키카 - 서울여자
+- 華原朋美 - I Believe
+- 謝金燕 Jeannie Hsieh - 姐姐
+- Missy Elliott - Get Ur Freak On
+- みくるー · びんすー - Wonderland 
+- AAA - 負けない心
+- 10cm - HELP
+- 베이비복스 - 남자에게
+- シャ乱Q -上･京･物･語
+- EOS - 넌 남이 아냐
+- jtL - Without your love

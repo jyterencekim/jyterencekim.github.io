@@ -2,6 +2,7 @@ import { defineConfig, envField } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
 import sitemap from "@astrojs/sitemap";
 import remarkToc from "remark-toc";
+// @ts-ignore - no types available
 import remarkCollapse from "remark-collapse";
 import {
   transformerNotationDiff,

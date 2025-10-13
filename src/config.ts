@@ -2,22 +2,22 @@ export const SITE = {
   website: "https://jyterencekim.github.io/",
   author: "JY Terence Kim",
   profile: "https://jyterencekim.github.io/",
-  desc: "Loose notes, translations, and occasional summaries gathered in one place.",
-  title: "jyterencekim",
-  ogImage: "astropaper-og.jpg",
+  desc: "server-side software engineer",
+  title: "jytk.gz",
+  ogImage: "",
   lightAndDarkMode: true,
-  postPerIndex: 8,
-  postPerPage: 12,
+  postPerIndex: 100,
+  postPerPage: 100,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
-  showBackButton: true, // show back button in post detail
+  showBackButton: false,
   editPost: {
-    enabled: true,
-    text: "Edit on GitHub",
-    url: "https://github.com/jyterencekim/jyterencekim.github.io/edit/master/",
+    enabled: false,
+    text: "",
+    url: "",
   },
-  dynamicOgImage: true,
-  dir: "ltr", // "rtl" | "auto"
-  lang: "en", // html lang code. Set this empty and default will be "en"
-  timezone: "Asia/Seoul", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  dynamicOgImage: false,
+  dir: "ltr",
+  lang: "en",
+  timezone: "Asia/Seoul",
 } as const;
