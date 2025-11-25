@@ -182,6 +182,7 @@ Not necessarily in order of preference
 - 木村由姫 - LOVE & JOY
 - Gjon's Tears - Tout l'Univers
 - Bat For Lashes - All Your Gold
+- Robyn - Call your girlfriend, Dancing on my own, Dopamine
 - YELLE - Moteur Action (A. G. Cook & SOPHIE remix), À cause des garçons (Tepr Remix)
 - Le Flex - Out of your mind
 - Reba McEntire - Consider Me Gone
