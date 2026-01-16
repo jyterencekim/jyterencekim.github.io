@@ -252,3 +252,4 @@ Not necessarily in order of preference
 - TM Network - Get Wild
 - 권지영 - 깔보지마
 - Tommy february6 - Bloomin’!, Lonely in Gorgeous, Love is forever
+- Utada Hikaru - First Love, Colors, One Last Kiss
