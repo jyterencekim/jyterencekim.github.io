@@ -253,3 +253,4 @@ Not necessarily in order of preference
 - 권지영 - 깔보지마
 - Tommy february6 - Bloomin’!, Lonely in Gorgeous, Love is forever
 - Utada Hikaru - First Love, Colors, One Last Kiss
+- 米倉千尋 - will, 琥珀の揺りかご, 嵐の中で輝いて
