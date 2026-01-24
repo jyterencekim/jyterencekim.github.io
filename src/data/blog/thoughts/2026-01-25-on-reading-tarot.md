@@ -1,6 +1,6 @@
 ---
 title: "내가 이해하는 사주팔자 풀이/타로 점"
-pubDatetime: 2026-01-25T00:00:00Z
+pubDatetime: 2026-01-25T00:00:00+09:00
 tags:
   - "thoughts"
 ---
