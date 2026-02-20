@@ -39,7 +39,7 @@ html[data-theme="dark"] {
   }
   body {
     @apply flex min-h-svh flex-col bg-background text-foreground selection:bg-foreground/80 selection:text-background;
-    font-family: monospace;
+    font-family: 'Geist Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
     font-size: larger;
     line-height: 1.65;
   }
