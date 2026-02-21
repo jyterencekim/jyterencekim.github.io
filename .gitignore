@@ -27,3 +27,6 @@ pnpm-debug.log*
 
 public/pagefind
 node_modules
+
+# oh-my-claudecode state
+.omc/
