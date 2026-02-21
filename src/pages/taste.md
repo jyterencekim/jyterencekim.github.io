@@ -255,3 +255,4 @@ Not necessarily in order of preference
 - Utada Hikaru - First Love, Colors, One Last Kiss
 - 米倉千尋 - will, 琥珀の揺りかご, 嵐の中で輝いて
 - A-Teens - Upside Down, Halfway round the world, Back for more
+- Yes Junior 24 - We are Next Up! (Feat. Futuristic Swaver)
