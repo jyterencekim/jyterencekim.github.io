@@ -28,6 +28,7 @@ Not necessarily in order of preference
 - Go_A - ШУМ, Shum
 - Kazaky - Love
 - New Order - Bizarre Love Triangle
+- Dire Straits - Your Latest Trick (Live At Les Arenes, Nimes / France / 1993)
 - SOPHIE - Immaterial, It’s Okay To Cry
 - Charlie XCX - Unlock It, visions, Vroom Vroom, Femmebot
 - 奥井亜紀 - Wind Climbing ～風にあそばれて～
@@ -239,6 +240,7 @@ Not necessarily in order of preference
 - 연우영 - Set My Life Free
 - Grimes ft. Janelle Monáe - Venus Fly
 - Royalty - Brown Eyed Girl
+- 장사익 - 찔레꽃
 - 유키카 - 서울여자
 - 華原朋美 - I Believe
 - 謝金燕 Jeannie Hsieh - 姐姐
