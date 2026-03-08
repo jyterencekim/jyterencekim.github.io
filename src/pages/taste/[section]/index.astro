@@ -1,0 +1,49 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import TasteEntryCard from "@/components/TasteEntryCard.astro";
+import { SITE } from "@/config";
+import {
+  TASTE_SECTIONS,
+  getTasteEntriesBySection,
+  type TasteSection,
+} from "@/utils/taste";
+
+export async function getStaticPaths() {
+  return Object.keys(TASTE_SECTIONS).map(section => ({
+    params: { section },
+    props: { section },
+  }));
+}
+
+const { section } = Astro.props as { section: TasteSection };
+const sectionMeta = TASTE_SECTIONS[section];
+const entries = getTasteEntriesBySection(await getCollection("taste"), section);
+---
+
+<Layout
+  title={`${sectionMeta.title} | taste | ${SITE.title}`}
+  description={sectionMeta.description}
+>
+  <Header />
+  <main id="main-content" class="mx-auto mt-8 w-full max-w-app px-4 pb-12">
+    <p class="text-sm opacity-70">
+      <a href="/taste">taste</a>
+    </p>
+    <h1 class="mt-3 text-2xl font-semibold sm:text-3xl">{sectionMeta.title}</h1>
+    <p class="mt-2 max-w-2xl italic">{sectionMeta.description}</p>
+
+    {
+      entries.length > 0 ? (
+        <ul class="mt-8">
+          {entries.map(entry => <TasteEntryCard {...entry} />)}
+        </ul>
+      ) : (
+        <p class="mt-8">No notes yet.</p>
+      )
+    }
+  </main>
+  <Footer />
+</Layout>

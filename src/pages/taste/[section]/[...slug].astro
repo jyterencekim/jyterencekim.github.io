@@ -1,0 +1,42 @@
+---
+import { getCollection, type CollectionEntry } from "astro:content";
+import TasteDetails from "@/layouts/TasteDetails.astro";
+import {
+  getTasteEntriesBySection,
+  getTasteSection,
+  getSortedTasteEntries,
+  type TasteSection,
+} from "@/utils/taste";
+
+export async function getStaticPaths() {
+  const entries = getSortedTasteEntries(await getCollection("taste"));
+
+  return entries.flatMap(entry => {
+    const section = getTasteSection(entry.id);
+
+    if (!section) {
+      return [];
+    }
+
+    return {
+      params: {
+        section,
+        slug: entry.id.split("/").slice(1).join("/"),
+      },
+      props: {
+        entry,
+        section,
+      },
+    };
+  });
+}
+
+const { entry, section } = Astro.props as {
+  entry: CollectionEntry<"taste">;
+  section: TasteSection;
+};
+
+const entries = getTasteEntriesBySection(await getCollection("taste"), section);
+---
+
+<TasteDetails {entry} {entries} {section} />

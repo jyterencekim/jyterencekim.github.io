@@ -4,6 +4,31 @@ title: "taste"
 ---
 어떤 식으로든 기억과 집착이 남은 가락과 영상들
 
+<div class="not-prose mt-8 grid gap-4 sm:grid-cols-2">
+  <a
+    href="/taste/listens"
+    class="block border border-border/30 p-4 no-underline transition-colors hover:bg-muted/40"
+  >
+    <strong class="block text-base">listens</strong>
+    <p class="mt-2 text-sm opacity-80">
+      귀에 남은 곡, 앨범, 플레이리스트에 대한 감상
+    </p>
+  </a>
+  <a
+    href="/taste/watches"
+    class="block border border-border/30 p-4 no-underline transition-colors hover:bg-muted/40"
+  >
+    <strong class="block text-base">watches</strong>
+    <p class="mt-2 text-sm opacity-80">
+      뮤직비디오, 라이브, 무대처럼 화면과 같이 남는 기록
+    </p>
+  </a>
+</div>
+
+새로 남기는 감상은 위 섹션에 따로 정리하고, 아래 목록은 오래 두고 보는 기준점처럼 남겨둔다.
+
+## on repeat
+
 Not necessarily in order of preference
 
 - GARNET CROW
