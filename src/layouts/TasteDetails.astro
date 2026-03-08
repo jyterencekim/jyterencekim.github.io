@@ -1,0 +1,149 @@
+---
+import { render, type CollectionEntry } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Tag from "@/components/Tag.astro";
+import Datetime from "@/components/Datetime.astro";
+import { SITE } from "@/config";
+import { getTastePath, TASTE_SECTIONS, type TasteSection } from "@/utils/taste";
+import { slugifyStr } from "@/utils/slugify";
+
+export interface Props {
+  entry: CollectionEntry<"taste">;
+  entries: CollectionEntry<"taste">[];
+  section: TasteSection;
+}
+
+const { entry, entries, section } = Astro.props;
+const {
+  title,
+  author,
+  description,
+  ogImage: initOgImage,
+  canonicalURL,
+  pubDatetime,
+  modDatetime,
+  timezone,
+  tags,
+  artist,
+  workTitle,
+  medium,
+  sourceUrl,
+} = entry.data;
+
+const { Content } = await render(entry);
+const sectionMeta = TASTE_SECTIONS[section];
+const subjectLine = [workTitle, artist].filter(Boolean).join(" - ");
+
+let ogImageUrl: string | undefined;
+
+if (typeof initOgImage === "string") {
+  ogImageUrl = initOgImage;
+} else if (initOgImage?.src) {
+  ogImageUrl = initOgImage.src;
+}
+
+const ogImage = ogImageUrl
+  ? new URL(ogImageUrl, Astro.url.origin).href
+  : undefined;
+
+const layoutProps = {
+  title: `${title} | ${sectionMeta.title} | ${SITE.title}`,
+  author,
+  description,
+  pubDatetime,
+  modDatetime,
+  canonicalURL,
+  ogImage,
+  scrollSmooth: true,
+};
+
+const currentEntryIndex = entries.findIndex(item => item.id === entry.id);
+const newerEntry =
+  currentEntryIndex > 0 ? entries[currentEntryIndex - 1] : null;
+const olderEntry =
+  currentEntryIndex < entries.length - 1 ? entries[currentEntryIndex + 1] : null;
+---
+
+<Layout {...layoutProps}>
+  <Header />
+  <main
+    id="main-content"
+    class="mx-auto mt-8 w-full max-w-app px-4 pb-12"
+    data-pagefind-body
+  >
+    <p class="text-sm opacity-70">
+      <a href="/taste">taste</a> /{" "}
+      <a href={`/taste/${section}`}>{sectionMeta.title}</a>
+    </p>
+    <h1
+      transition:name={slugifyStr(title)}
+      class="mt-3 inline-block text-2xl font-bold text-accent sm:text-3xl"
+    >
+      {title}
+    </h1>
+    <div class="mt-3 flex flex-wrap items-center gap-2">
+      <Datetime {pubDatetime} {modDatetime} {timezone} size="lg" />
+      <span class="border border-border/30 px-2 py-0.5 text-xs uppercase tracking-[0.2em]">
+        {medium}
+      </span>
+    </div>
+    {subjectLine && <p class="mt-4 text-base opacity-90 sm:text-lg">{subjectLine}</p>}
+    {
+      sourceUrl && (
+        <p class="mt-2 text-sm opacity-80">
+          <a href={sourceUrl} target="_blank" rel="noopener noreferrer">
+            source
+          </a>
+        </p>
+      )
+    }
+
+    <article
+      id="article"
+      class="app-prose mx-auto mt-8 max-w-app prose-pre:bg-(--shiki-light-bg) dark:prose-pre:bg-(--shiki-dark-bg)"
+    >
+      <Content />
+    </article>
+
+    {
+      tags.length > 0 && (
+        <ul class="mt-8 mb-8 sm:my-8">
+          {tags.map(tag => <Tag tag={slugifyStr(tag)} tagName={tag} />)}
+        </ul>
+      )
+    }
+
+    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
+      {
+        newerEntry && (
+          <a
+            href={getTastePath(newerEntry.id, newerEntry.filePath)}
+            class="flex w-full gap-1 hover:underline"
+          >
+            <div>
+              <span>← Newer: </span>
+              <span class="text-sm">{newerEntry.data.title}</span>
+            </div>
+          </a>
+        )
+      }
+      {
+        olderEntry && (
+          <a
+            href={getTastePath(olderEntry.id, olderEntry.filePath)}
+            class="flex w-full justify-end gap-1 text-end hover:underline sm:col-start-2"
+          >
+            <div>
+              <span>Older: </span>
+              <span class="text-sm">{olderEntry.data.title}</span>
+              <span> →</span>
+            </div>
+          </a>
+        )
+      }
+    </div>
+  </main>
+  <Footer />
+</Layout>

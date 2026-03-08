@@ -1,0 +1,51 @@
+---
+import type { CollectionEntry } from "astro:content";
+import Datetime from "@/components/Datetime.astro";
+import { getTastePath, getTasteSection, TASTE_SECTIONS } from "@/utils/taste";
+
+export interface Props extends CollectionEntry<"taste"> {
+  showSection?: boolean;
+}
+
+const { data, id, filePath, showSection = false } = Astro.props;
+const {
+  title,
+  description,
+  artist,
+  workTitle,
+  medium,
+  pubDatetime,
+  modDatetime,
+  timezone,
+} = data;
+
+const section = getTasteSection(id);
+const sectionMeta = section ? TASTE_SECTIONS[section] : undefined;
+const subjectLine = [workTitle, artist].filter(Boolean).join(" - ");
+---
+
+<li class="my-4 border border-border/20 bg-background p-4">
+  <a
+    href={getTastePath(id, filePath)}
+    class="group block no-underline"
+  >
+    <div class="flex flex-wrap items-center gap-2 text-sm">
+      <Datetime {pubDatetime} {modDatetime} {timezone} />
+      {
+        showSection && sectionMeta && (
+          <span class="border border-border/30 px-2 py-0.5 text-xs uppercase tracking-[0.2em]">
+            {sectionMeta.title}
+          </span>
+        )
+      }
+      <span class="border border-border/30 px-2 py-0.5 text-xs uppercase tracking-[0.2em]">
+        {medium}
+      </span>
+    </div>
+    <h2 class="mt-3 text-lg font-semibold group-hover:underline">
+      {title}
+    </h2>
+    {subjectLine && <p class="mt-2 opacity-80">{subjectLine}</p>}
+    {description && <p class="mt-2">{description}</p>}
+  </a>
+</li>
