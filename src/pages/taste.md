@@ -285,3 +285,4 @@ Not necessarily in order of preference
 - A-Teens - Upside Down, Halfway round the world, Back for more
 - Yes Junior 24 - We are Next Up! (Feat. Futuristic Swaver)
 - Blue Giant (Hiromi · Tomoaki Baba · Shun Ishiwaka) - WE WILL
+- Day After Tomorrow - Faraway
