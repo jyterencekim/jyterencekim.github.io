@@ -195,8 +195,10 @@ Not necessarily in order of preference
 - Roma Radz - Token
 - Wonder Girls - I Feel You
 - 髙橋真梨子 - EVERYTIME I FEEL YOUR HEART -君と生きたい-, ごめんね・・・
+    - 林部智史 - ごめんね (cover)
 - TRF - BOY MEETS GIRL, CRAZY GONNA CRAZY
 - 윤상 - 날 위로하려거든
+- 노땐스 (윤상) - 달리기
 - Dennis Sheperd & Ronski Speed - Karoshi
 - Jonas Steur - Simple pleasures
 - Enrique Iglesias - Dímelo
@@ -286,3 +288,4 @@ Not necessarily in order of preference
 - Yes Junior 24 - We are Next Up! (Feat. Futuristic Swaver)
 - Blue Giant (Hiromi · Tomoaki Baba · Shun Ishiwaka) - WE WILL
 - Day After Tomorrow - Faraway
+- 小椋佳 & 林部智史 - ラピスラズリの涙 (Duet ver.)
