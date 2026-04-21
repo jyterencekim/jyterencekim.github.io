@@ -289,3 +289,6 @@ Not necessarily in order of preference
 - Blue Giant (Hiromi · Tomoaki Baba · Shun Ishiwaka) - WE WILL
 - Day After Tomorrow - Faraway
 - 小椋佳 & 林部智史 - ラピスラズリの涙 (Duet ver.)
+- 유하 - 오늘 조금 취해서 그래
+- 남녀공학 - 삐리뽐 빼리뽐
+- YENA - 캐치 캐치
