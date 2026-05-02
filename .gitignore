@@ -30,3 +30,6 @@ node_modules
 
 # oh-my-claudecode state
 .omc/
+
+# raw drafts (not for publishing)
+raw/
