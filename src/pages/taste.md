@@ -293,3 +293,5 @@ Not necessarily in order of preference
 - 남녀공학 - 삐리뽐 빼리뽐
 - YENA - 캐치 캐치
 - 달의하루dareharu - 너로 피어오라flowering
+- Elizaveta - Armies Of Your Heart
+- 권은비 - The Flash
