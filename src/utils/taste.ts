@@ -4,15 +4,9 @@ import { getContentPath } from "./getContentPath";
 import getSortedCollectionEntries from "./getSortedCollectionEntries";
 
 export const TASTE_SECTIONS = {
-  listens: {
-    title: "listens",
-    description:
-      "귀에 남은 곡, 앨범, 플레이리스트를 따로 적어두는 쪽.",
-  },
-  watches: {
-    title: "watches",
-    description:
-      "뮤직비디오, 라이브, 무대처럼 화면과 장면이 같이 남는 쪽.",
+  notes: {
+    title: "notes",
+    description: "",
   },
 } as const;
 

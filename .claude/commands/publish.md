@@ -16,8 +16,7 @@ The user writes drafts into `raw/<collection>/<subcategory>/<anything>.md`. The 
 - `raw/blog/dev/foo.md` → `src/data/blog/dev/<date>-<slug>.md`
 - `raw/blog/garnet-crow/foo.md` → `src/data/blog/garnet-crow/<date>-<slug>.md`
 - `raw/blog/misc/foo.md` → `src/data/blog/misc/<date>-<slug>.md`
-- `raw/taste/listens/foo.md` → `src/data/taste/listens/<date>-<slug>.md`
-- `raw/taste/watches/foo.md` → `src/data/taste/watches/<date>-<slug>.md`
+- `raw/taste/notes/foo.md` → `src/data/taste/notes/<date>-<slug>.md`
 
 If a raw file is at the wrong depth (e.g. `raw/foo.md` or `raw/blog/foo.md` without subcategory), ask the user where it should go before proceeding.
 
