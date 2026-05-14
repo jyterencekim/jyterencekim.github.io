@@ -4,7 +4,7 @@ title: "taste"
 ---
 어떤 식으로든 기억과 집착이 남은 가락과 영상들
 
-[notes](/taste/notes)
+[notes](/taste/notes) · [LP wall](/taste/lps)
 
 ## on repeat
 
