@@ -1,0 +1,279 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import { SITE } from "@/config";
+import data from "@/data/taste-lps.json";
+
+type LpEntry = {
+  artist: string;
+  song: string | null;
+  label: string;
+  query: string;
+  artworkUrl: string | null;
+  previewUrl?: string | null;
+  foundArtist?: string | null;
+  foundTrack?: string | null;
+  foundAlbum?: string | null;
+  trackViewUrl?: string | null;
+  fuzzy?: boolean;
+};
+
+const allEntries = (data.entries as LpEntry[]) ?? [];
+const entries = allEntries.filter(e => !!e.artworkUrl);
+const orphans = allEntries.filter(e => !e.artworkUrl);
+
+// Deterministic pseudo-random per index so SSR / hydration match.
+const rand = (seed: number) => {
+  const x = Math.sin(seed * 9301 + 49297) * 233280;
+  return x - Math.floor(x);
+};
+
+const decorated = entries.map((e, i) => {
+  const rot = (rand(i) - 0.5) * 16; // -8..8 deg
+  const dx = (rand(i + 101) - 0.5) * 36;
+  const dy = (rand(i + 211) - 0.5) * 36;
+  const z = Math.floor(rand(i + 313) * 30);
+  return { ...e, rot, dx, dy, z };
+});
+
+const woven = orphans.map((e, i) => {
+  const sizeStep = Math.floor(rand(i + 401) * 5); // 0..4
+  const rot = (rand(i + 503) - 0.5) * 6; // -3..3
+  const dy = (rand(i + 607) - 0.5) * 8;
+  const sep = ["·", "/", "∙", "×", "—", "•", "·"][
+    Math.floor(rand(i + 709) * 7)
+  ];
+  return { ...e, sizeStep, rot, dy, sep };
+});
+
+const total = decorated.length;
+const orphanCount = woven.length;
+---
+
+<Layout
+  title={`scattered covers | taste | ${SITE.title}`}
+  description="Cover art for every track on my taste list — scattered, overlapping, all visible."
+>
+  <Header />
+  <main id="main-content" class="mx-auto mt-8 w-full max-w-app px-4 pb-12">
+    <p class="text-sm opacity-70">
+      <a href="/taste">← taste</a>
+    </p>
+    <h1 class="mt-3 text-2xl font-semibold sm:text-3xl">scattered covers</h1>
+    <p class="mt-2 text-sm opacity-70">{total} covers</p>
+    <p class="mt-1 text-xs opacity-60">
+      hover one to see what it is. covers fetched via the iTunes Search API.
+    </p>
+
+    <div class="cover-wall mt-10">
+      {
+        decorated.map(d => (
+          <figure
+            class="cover"
+            style={`--rot:${d.rot}deg;--dx:${d.dx}px;--dy:${d.dy}px;--z:${d.z};`}
+            title={d.label}
+          >
+            <img
+              src={d.artworkUrl}
+              alt={d.label}
+              loading="lazy"
+              decoding="async"
+            />
+            <figcaption class="cover-cap">
+              <span class="cover-cap-artist">{d.artist}</span>
+              {d.song && <span class="cover-cap-song">{d.song}</span>}
+            </figcaption>
+          </figure>
+        ))
+      }
+    </div>
+
+    {
+      orphanCount > 0 && (
+        <section class="woven mt-16">
+          <h2 class="woven-heading">no cover surfaced · {orphanCount}</h2>
+          <p class="woven-stream" aria-label="entries without retrievable cover art">
+            {woven.map((w, idx) => (
+              <>
+                <span
+                  class={`w s${w.sizeStep}`}
+                  style={`--rot:${w.rot}deg;--dy:${w.dy}px;`}
+                >
+                  {w.label}
+                </span>
+                {idx < woven.length - 1 && <span class="sep">{` ${w.sep} `}</span>}
+              </>
+            ))}
+          </p>
+        </section>
+      )
+    }
+  </main>
+  <Footer />
+</Layout>
+
+<style is:global>
+  @import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=VT323&family=DotGothic16&family=Galmuri11:wght@400;700&display=swap");
+</style>
+
+<style>
+  .cover-wall {
+    --cell: 96px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, var(--cell));
+    grid-auto-rows: var(--cell);
+    justify-content: center;
+    gap: 0;
+    padding: 60px 0 100px;
+    position: relative;
+  }
+
+  @media (min-width: 640px) {
+    .cover-wall {
+      --cell: 116px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .cover-wall {
+      --cell: 132px;
+    }
+  }
+
+  .cover {
+    position: relative;
+    width: calc(var(--cell) * 1.35);
+    height: calc(var(--cell) * 1.35);
+    margin: calc(var(--cell) * -0.175);
+    transform: translate(var(--dx), var(--dy)) rotate(var(--rot));
+    z-index: var(--z);
+    transition:
+      transform 260ms cubic-bezier(0.2, 0.7, 0.2, 1),
+      z-index 0s;
+    will-change: transform;
+  }
+
+  .cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    box-shadow:
+      0 6px 18px rgba(0, 0, 0, 0.4),
+      0 1px 0 rgba(255, 255, 255, 0.05) inset;
+  }
+
+  .cover:hover,
+  .cover:focus-within {
+    transform: translate(0, 0) rotate(0deg) scale(1.4);
+    z-index: 200;
+  }
+
+  .cover-cap {
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    background: var(--background);
+    border: 1px solid var(--border);
+    padding: 4px 8px;
+    font-size: 0.7rem;
+    line-height: 1.3;
+    white-space: nowrap;
+    max-width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 180ms ease;
+    z-index: 201;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+  }
+
+  .cover:hover .cover-cap,
+  .cover:focus-within .cover-cap {
+    opacity: 1;
+  }
+
+  .cover-cap-artist {
+    font-weight: 600;
+    max-width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .cover-cap-song {
+    opacity: 0.75;
+    max-width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Woven text section: artistic stream of orphans without covers */
+  .woven {
+    border-top: 1px dashed color-mix(in srgb, var(--border) 35%, transparent);
+    padding-top: 36px;
+  }
+
+  .woven-heading {
+    font-family: "Silkscreen", "DotGothic16", "Galmuri11", "Geist Mono", monospace;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: lowercase;
+    opacity: 0.85;
+    margin-bottom: 20px;
+  }
+
+  .woven-stream {
+    font-family: "VT323", "Galmuri11", "DotGothic16", "Geist Mono", monospace;
+    font-size: 1.35rem;
+    line-height: 1.55;
+    word-spacing: 0.05em;
+    text-align: justify;
+    text-justify: inter-character;
+    hyphens: none;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+    color: var(--foreground);
+    opacity: 0.92;
+  }
+
+  .woven-stream .w {
+    display: inline-block;
+    transform: translateY(var(--dy)) rotate(var(--rot));
+    transition: transform 200ms ease, color 200ms ease;
+    cursor: default;
+  }
+
+  .woven-stream .w:hover {
+    transform: translateY(0) rotate(0deg) scale(1.08);
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  .woven-stream .s0 { font-size: 1.05rem; font-family: "Silkscreen", "Geist Mono", monospace; letter-spacing: 0.02em; }
+  .woven-stream .s1 { font-size: 1.45rem; font-family: "VT323", "Galmuri11", monospace; }
+  .woven-stream .s2 { font-size: 1.75rem; font-family: "DotGothic16", "Galmuri11", "Geist Mono", monospace; }
+  .woven-stream .s3 { font-size: 1.2rem; font-family: "Galmuri11", "DotGothic16", "Geist Mono", monospace; font-weight: 700; }
+  .woven-stream .s4 { font-size: 2rem; font-family: "VT323", "DotGothic16", monospace; opacity: 0.78; }
+
+  .woven-stream .sep {
+    opacity: 0.35;
+    font-family: "Silkscreen", "Geist Mono", monospace;
+    font-size: 0.85rem;
+    margin: 0 0.15em;
+    vertical-align: middle;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .cover,
+    .woven-stream .w {
+      transition: none;
+    }
+  }
+</style>
