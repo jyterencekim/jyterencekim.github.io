@@ -276,3 +276,4 @@ Not necessarily in order of preference
 - 권은비 - The Flash
 - 빛과 소금 - 샴푸의 요정
 - Infinite Flow - Rainbow
+- Bonnie Tyler - Total Eclipse of the Heart
