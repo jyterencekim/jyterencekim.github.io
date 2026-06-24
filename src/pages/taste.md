@@ -99,6 +99,7 @@ Not necessarily in order of preference
 - SHYGIRL - BB, Firefly
 - The Veronicas - Untouched
 - Rebecca Black - Friday
+- Day After Tomorrow - Faraway
 - Kim Wilde - You Came
 - a-ha - Take on me
 - Sigrid
@@ -266,7 +267,6 @@ Not necessarily in order of preference
 - A-Teens - Upside Down, Halfway round the world, Back for more
 - Yes Junior 24 - We are Next Up! (Feat. Futuristic Swaver)
 - Blue Giant (Hiromi · Tomoaki Baba · Shun Ishiwaka) - WE WILL
-- Day After Tomorrow - Faraway
 - 小椋佳 & 林部智史 - ラピスラズリの涙 (Duet ver.)
 - 유하 - 오늘 조금 취해서 그래
 - 남녀공학 - 삐리뽐 빼리뽐
