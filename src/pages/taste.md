@@ -89,6 +89,7 @@ Not necessarily in order of preference
     - Ay Mamá
     - A ver qué pasa
 - 정태춘, 박은옥 - 92년 장마, 종로에서
+- T.T.Ma (티티마) - Wanna be loved
 - 이박사 - 학교매점 출출해
 - ELO - Twilight
 - Zendaya - Replay
