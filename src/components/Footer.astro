@@ -1,11 +1,19 @@
 ---
+import { SITE } from "@/config";
+
 export interface Props {
   noMarginTop?: boolean;
 }
 
 const { noMarginTop = false } = Astro.props;
+const year = new Date().getFullYear();
 ---
 
 <footer class:list={["w-full border-t border-border", { "mt-auto": !noMarginTop }]}>
-  <div class="mx-auto max-w-app px-4 py-6"></div>
+  <div
+    class="mx-auto flex max-w-app flex-wrap items-center gap-x-3 gap-y-1 px-4 py-6 text-sm opacity-60"
+  >
+    <a href="/rss.xml" class="hover:underline">rss</a>
+    <span>&copy; {year} {SITE.author}</span>
+  </div>
 </footer>

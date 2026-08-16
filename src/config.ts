@@ -16,8 +16,8 @@ export const SITE = {
     text: "",
     url: "",
   },
-  dynamicOgImage: false,
+  dynamicOgImage: true,
   dir: "ltr",
-  lang: "en",
+  lang: "ko",
   timezone: "Asia/Seoul",
 } as const;

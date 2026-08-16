@@ -39,7 +39,7 @@ const categoryPosts = sortedPosts.filter(post =>
     {categoryPosts.length > 0 ? (
       <ul class="mt-6">
         {categoryPosts.map(post => (
-          <Card variant="h3" {...post} />
+          <Card {...post} />
         ))}
       </ul>
     ) : (

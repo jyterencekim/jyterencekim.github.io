@@ -14,14 +14,13 @@ const { tag, tagName, size = "sm" } = Astro.props;
     size === "sm" ? "my-1 underline-offset-4" : "mx-1 my-3 underline-offset-8",
   ]}
 >
-  <a
-    href={`/tags/${tag}/`}
+  <span
     transition:name={tag}
     class:list={[
-      "relative pe-2 text-lg underline decoration-dashed group-hover:-top-0.5 group-hover:text-accent focus-visible:p-1 focus-visible:no-underline",
+      "pe-2 text-lg group-hover:text-accent",
       { "text-sm": size === "sm" },
     ]}
   >
     <span class="opacity-80">#</span>&nbsp;<span>{tagName}</span>
-  </a>
+  </span>
 </li>

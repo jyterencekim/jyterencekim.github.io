@@ -3,10 +3,11 @@ import { render, type CollectionEntry } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
-import Tag from "@/components/Tag.astro";
 import Datetime from "@/components/Datetime.astro";
 import { getPath } from "@/utils/getPath";
 import { slugifyStr } from "@/utils/slugify";
+import detectLang from "@/utils/detectLang";
+import toExcerpt from "@/utils/toExcerpt";
 import { SITE } from "@/config";
 
 export interface Props {
@@ -25,10 +26,12 @@ const {
   pubDatetime,
   modDatetime,
   timezone,
-  tags,
 } = post.data;
 
 const { Content } = await render(post);
+
+// posts are mixed korean/english - declare the real one on <html lang>
+const lang = detectLang(post.body ?? "");
 
 let ogImageUrl: string | undefined;
 
@@ -51,13 +54,17 @@ const ogImage = ogImageUrl
 
 const layoutProps = {
   title: `${title} | ${SITE.title}`,
+  headline: title,
   author,
-  description,
+  // posts without a frontmatter description get their own opening words
+  // (`||`, not `??` — one post carries an empty-string description)
+  description: description?.trim() ? description : toExcerpt(post.body ?? ""),
   pubDatetime,
   modDatetime,
   canonicalURL,
   ogImage,
   scrollSmooth: true,
+  lang,
 };
 
 /* ========== Prev/Next Posts ========== */
@@ -72,7 +79,9 @@ const currentPostIndex = allPosts.findIndex(a => a.id === post.id);
 
 const prevPost = currentPostIndex !== 0 ? allPosts[currentPostIndex - 1] : null;
 const nextPost =
-  currentPostIndex !== allPosts.length ? allPosts[currentPostIndex + 1] : null;
+  currentPostIndex !== allPosts.length - 1
+    ? allPosts[currentPostIndex + 1]
+    : null;
 ---
 
 <Layout {...layoutProps}>
@@ -98,12 +107,11 @@ const nextPost =
       <Content />
     </article>
 
-    <ul class="mt-8 mb-8 sm:my-8">
-      {tags.map(tag => <Tag tag={slugifyStr(tag)} tagName={tag} />)}
-    </ul>
-
     <!-- Previous/Next Post Buttons -->
-    <div data-pagefind-ignore class="grid grid-cols-1 gap-6 sm:grid-cols-2">
+    <div
+      data-pagefind-ignore
+      class="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2"
+    >
       {
         prevPost && (
           <a
@@ -140,160 +148,195 @@ const nextPost =
 </Layout>
 
 <script is:inline data-astro-rerun>
-  /** Create a progress indicator
-   *  at the top */
-  function createProgressBar() {
-    // Create the main container div
-    const progressContainer = document.createElement("div");
-    progressContainer.className =
-      "progress-container fixed top-0 z-10 h-1 w-full bg-background";
-
-    // Create the progress bar div
-    const progressBar = document.createElement("div");
-    progressBar.className = "progress-bar h-1 w-0 bg-accent";
-    progressBar.id = "myBar";
-
-    // Append the progress bar to the progress container
-    progressContainer.appendChild(progressBar);
-
-    // Append the progress container to the document body or any other desired parent element
-    document.body.appendChild(progressContainer);
-  }
-  createProgressBar();
-
-  /** Update the progress bar
-   *  when user scrolls */
-  function updateScrollProgress() {
-    document.addEventListener("scroll", () => {
-      const winScroll =
-        document.body.scrollTop || document.documentElement.scrollTop;
-      const height =
-        document.documentElement.scrollHeight -
-        document.documentElement.clientHeight;
-      const scrolled = (winScroll / height) * 100;
-      if (document) {
-        const myBar = document.getElementById("myBar");
-        if (myBar) {
-          myBar.style.width = scrolled + "%";
-        }
-      }
-    });
-  }
-  updateScrollProgress();
-
-  /** Attaches links to headings in the document,
-   *  allowing sharing of sections easily */
-  function addHeadingLinks() {
-    const headings = Array.from(
-      document.querySelectorAll("h2, h3, h4, h5, h6")
-    );
-    for (const heading of headings) {
-      heading.classList.add("group");
-      const link = document.createElement("a");
-      link.className =
-        "heading-link ms-2 no-underline opacity-75 md:opacity-0 md:group-hover:opacity-100 md:focus:opacity-100";
-      link.href = "#" + heading.id;
-
-      const span = document.createElement("span");
-      span.ariaHidden = "true";
-      span.innerText = "#";
-      link.appendChild(span);
-      heading.appendChild(link);
+  /* this whole script re-runs on every client-side navigation (<ClientRouter />).
+   * everything lives in an IIFE so top-level bindings never collide, and anything
+   * that outlives the body swap - document listeners, the theme MutationObserver -
+   * is torn down before it is registered again. elements appended inside the
+   * swapped body (progress bar, heading links, copy buttons) are safe to recreate. */
+  (() => {
+    /* undo whatever the previous run of this script registered */
+    const prev = window.__postDetailsCleanup;
+    if (prev) {
+      prev.observer.disconnect();
+      prev.controller.abort();
     }
-  }
-  addHeadingLinks();
 
-  /** Attaches copy buttons to code blocks in the document,
-   * allowing users to copy code easily. */
-  function attachCopyButtons() {
-    const copyButtonLabel = "Copy";
-    const codeBlocks = Array.from(document.querySelectorAll("pre"));
+    const controller = new AbortController();
+    const signal = controller.signal;
 
-    for (const codeBlock of codeBlocks) {
-      const wrapper = document.createElement("div");
-      wrapper.style.position = "relative";
+    /** Create a progress indicator
+     *  at the top */
+    function createProgressBar() {
+      // Create the main container div
+      const progressContainer = document.createElement("div");
+      progressContainer.className =
+        "progress-container fixed top-0 z-10 h-1 w-full bg-background";
 
-      // Check if --file-name-offset custom property exists
-      const computedStyle = getComputedStyle(codeBlock);
-      const hasFileNameOffset =
-        computedStyle.getPropertyValue("--file-name-offset").trim() !== "";
+      // Create the progress bar div
+      const progressBar = document.createElement("div");
+      progressBar.className = "progress-bar h-1 w-0 bg-accent";
+      progressBar.id = "myBar";
 
-      // Determine the top positioning class
-      const topClass = hasFileNameOffset
-        ? "top-(--file-name-offset)"
-        : "-top-3";
+      // Append the progress bar to the progress container
+      progressContainer.appendChild(progressBar);
 
-      const copyButton = document.createElement("button");
-      copyButton.className = `copy-code absolute end-3 ${topClass} rounded bg-muted border border-muted px-2 py-1 text-xs leading-4 text-foreground font-medium`;
-      copyButton.innerHTML = copyButtonLabel;
-      codeBlock.setAttribute("tabindex", "0");
-      codeBlock.appendChild(copyButton);
+      // Append the progress container to the document body or any other desired parent element
+      document.body.appendChild(progressContainer);
+    }
+    createProgressBar();
 
-      // wrap codebock with relative parent element
-      codeBlock?.parentNode?.insertBefore(wrapper, codeBlock);
-      wrapper.appendChild(codeBlock);
+    /** Update the progress bar
+     *  when user scrolls */
+    function updateScrollProgress() {
+      document.addEventListener(
+        "scroll",
+        () => {
+          const winScroll =
+            document.body.scrollTop || document.documentElement.scrollTop;
+          const height =
+            document.documentElement.scrollHeight -
+            document.documentElement.clientHeight;
+          const scrolled = (winScroll / height) * 100;
+          if (document) {
+            const myBar = document.getElementById("myBar");
+            if (myBar) {
+              myBar.style.width = scrolled + "%";
+            }
+          }
+        },
+        { signal }
+      );
+    }
+    updateScrollProgress();
 
-      copyButton.addEventListener("click", async () => {
-        await copyCode(codeBlock, copyButton);
+    /** Attaches links to headings in the document,
+     *  allowing sharing of sections easily */
+    function addHeadingLinks() {
+      const headings = Array.from(
+        document.querySelectorAll("h2, h3, h4, h5, h6")
+      );
+      for (const heading of headings) {
+        heading.classList.add("group");
+        const link = document.createElement("a");
+        link.className =
+          "heading-link ms-2 no-underline opacity-75 md:opacity-0 md:group-hover:opacity-100 md:focus:opacity-100";
+        link.href = "#" + heading.id;
+
+        const span = document.createElement("span");
+        span.ariaHidden = "true";
+        span.innerText = "#";
+        link.appendChild(span);
+        heading.appendChild(link);
+      }
+    }
+    addHeadingLinks();
+
+    /** Attaches copy buttons to code blocks in the document,
+     * allowing users to copy code easily. */
+    function attachCopyButtons() {
+      const copyButtonLabel = "Copy";
+      const codeBlocks = Array.from(document.querySelectorAll("pre"));
+
+      for (const codeBlock of codeBlocks) {
+        const wrapper = document.createElement("div");
+        wrapper.style.position = "relative";
+
+        // Check if --file-name-offset custom property exists
+        const computedStyle = getComputedStyle(codeBlock);
+        const hasFileNameOffset =
+          computedStyle.getPropertyValue("--file-name-offset").trim() !== "";
+
+        // Determine the top positioning class
+        const topClass = hasFileNameOffset
+          ? "top-(--file-name-offset)"
+          : "-top-3";
+
+        const copyButton = document.createElement("button");
+        copyButton.className = `copy-code absolute end-3 ${topClass} rounded bg-muted border border-muted px-2 py-1 text-xs leading-4 text-foreground font-medium`;
+        copyButton.innerHTML = copyButtonLabel;
+        codeBlock.setAttribute("tabindex", "0");
+        codeBlock.appendChild(copyButton);
+
+        // wrap codebock with relative parent element
+        codeBlock?.parentNode?.insertBefore(wrapper, codeBlock);
+        wrapper.appendChild(codeBlock);
+
+        copyButton.addEventListener(
+          "click",
+          async () => {
+            await copyCode(codeBlock, copyButton);
+          },
+          { signal }
+        );
+      }
+
+      async function copyCode(block, button) {
+        const code = block.querySelector("code");
+        const text = code?.innerText;
+
+        await navigator.clipboard.writeText(text ?? "");
+
+        // visual feedback that task is completed
+        button.innerText = "Copied";
+
+        setTimeout(() => {
+          button.innerText = copyButtonLabel;
+        }, 700);
+      }
+    }
+    attachCopyButtons();
+
+    /* Load Utterances comments. keyed on pathname+theme so repeat calls for the
+     * same page/theme are a no-op - only a real theme change reloads the widget. */
+    function loadUtterances() {
+      const container = document.getElementById("utterances-container");
+      if (!container) return;
+
+      /* read the persisted choice, not data-theme: astro's swapRootAttributes
+       * drops data-theme during astro:after-swap (the shipped <html> has none)
+       * and toggle-theme.js only re-adds it afterwards. localStorage is the
+       * source of truth toggle-theme.js writes. */
+      const theme =
+        localStorage.getItem("theme") === "dark"
+          ? "github-dark"
+          : "github-light";
+
+      const key = location.pathname + "|" + theme;
+      if (container.dataset.utterances === key) return;
+      container.dataset.utterances = key;
+
+      // Clear existing comments
+      container.innerHTML = "";
+
+      const script = document.createElement("script");
+      script.src = "https://utteranc.es/client.js";
+      script.setAttribute("repo", "jyterencekim/jyterencekim.github.io");
+      script.setAttribute("issue-term", "pathname");
+      script.setAttribute("theme", theme);
+      script.setAttribute("crossorigin", "anonymous");
+      script.setAttribute("async", "true");
+
+      container.appendChild(script);
+    }
+    loadUtterances();
+    window.__postDetailsLoadUtterances = loadUtterances;
+
+    // Reload utterances when the theme button flips data-theme
+    const observer = new MutationObserver(loadUtterances);
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ["data-theme"],
+    });
+
+    window.__postDetailsCleanup = { observer, controller };
+
+    /* document-level swap handlers survive the swap - register them exactly once */
+    if (!window.__postDetailsSwapBound) {
+      window.__postDetailsSwapBound = true;
+      document.addEventListener("astro:after-swap", () => {
+        window.scrollTo({ left: 0, top: 0, behavior: "instant" });
+        window.__postDetailsLoadUtterances?.();
       });
     }
-
-    async function copyCode(block, button) {
-      const code = block.querySelector("code");
-      const text = code?.innerText;
-
-      await navigator.clipboard.writeText(text ?? "");
-
-      // visual feedback that task is completed
-      button.innerText = "Copied";
-
-      setTimeout(() => {
-        button.innerText = copyButtonLabel;
-      }, 700);
-    }
-  }
-  attachCopyButtons();
-
-  /* Go to page start after page swap */
-  document.addEventListener("astro:after-swap", () =>
-    window.scrollTo({ left: 0, top: 0, behavior: "instant" })
-  );
-
-  /* Load Utterances comments */
-  function loadUtterances() {
-    const container = document.getElementById("utterances-container");
-    if (!container) return;
-
-    // Clear existing comments
-    container.innerHTML = "";
-
-    const theme = document.documentElement.getAttribute("data-theme") === "dark"
-      ? "github-dark"
-      : "github-light";
-
-    const script = document.createElement("script");
-    script.src = "https://utteranc.es/client.js";
-    script.setAttribute("repo", "jyterencekim/jyterencekim.github.io");
-    script.setAttribute("issue-term", "pathname");
-    script.setAttribute("theme", theme);
-    script.setAttribute("crossorigin", "anonymous");
-    script.setAttribute("async", "true");
-
-    container.appendChild(script);
-  }
-
-  loadUtterances();
-
-  // Reload utterances when theme changes
-  document.addEventListener("astro:after-swap", loadUtterances);
-
-  // Listen for theme button clicks
-  const observer = new MutationObserver(() => {
-    loadUtterances();
-  });
-
-  observer.observe(document.documentElement, {
-    attributes: true,
-    attributeFilter: ["data-theme"]
-  });
+  })();
 </script>

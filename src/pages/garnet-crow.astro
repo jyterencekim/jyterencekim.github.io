@@ -21,7 +21,7 @@ const garnetCrowPosts = sortedPosts.filter(post =>
     {garnetCrowPosts.length > 0 ? (
       <ul class="mt-6">
         {garnetCrowPosts.map(post => (
-          <Card variant="h3" {...post} />
+          <Card {...post} />
         ))}
       </ul>
     ) : (

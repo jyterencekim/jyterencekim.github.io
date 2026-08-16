@@ -24,11 +24,11 @@ If a raw file is at the wrong depth (e.g. `raw/foo.md` or `raw/blog/foo.md` with
 
 `blog` collection (`src/content.config.ts`):
 - required: `title` (string), `pubDatetime` (date)
-- optional: `modDatetime`, `featured`, `draft`, `tags` (array, default `["others"]`), `ogImage`, `description`, `canonicalURL`, `hideEditPost`, `timezone`, `author`
+- optional: `modDatetime`, `featured`, `draft`, `ogImage`, `description`, `canonicalURL`, `hideEditPost`, `timezone`, `author`
 
 `taste` collection:
 - required: `title` (string), `pubDatetime` (date)
-- optional: `artist`, `workTitle`, `medium` (enum: `song|album|playlist|video|live|performance`, default `song`), plus all the optional blog fields, plus `sourceUrl`
+- optional: `artist`, `workTitle`, `medium` (enum: `song|album|playlist|video|live|performance`, default `song`), `tags` (array, default `[]`), plus all the optional blog fields, plus `sourceUrl`
 
 ## Steps
 
@@ -48,9 +48,9 @@ If a raw file is at the wrong depth (e.g. `raw/foo.md` or `raw/blog/foo.md` with
 
    e. **Slug**: prefer existing filename's slug part (after stripping any `YYYY-MM-DD-` prefix and `.md` extension). Keep Korean characters as-is — existing posts use them (e.g. `2016-09-28-탈윤리-자라기.md`). Lowercase ASCII letters only; do not lowercase hangul.
 
-   f. **Tags**: for `blog/<sub>` files, default `tags: ["<sub>"]` if no frontmatter tags (matches existing convention — see `src/data/blog/thoughts/2017-03-14-unblock.md`). For `taste`, leave tags out unless user provided.
+   f. **Tags**: only `taste` has tags. Leave them out unless the user provided them. `blog` has no `tags` field — if a blog draft carries one, warn and drop it.
 
-   g. **Compose final frontmatter** by merging defaults with user-provided frontmatter (user wins). Keep field order consistent with existing posts: `title`, `pubDatetime`, `tags`, `description`, then collection-specific fields.
+   g. **Compose final frontmatter** by merging defaults with user-provided frontmatter (user wins). Keep field order consistent with existing posts: `title`, `pubDatetime`, `description`, then collection-specific fields.
 
    h. **Target path**: `src/data/<collection>/<subcategory>/<YYYY-MM-DD>-<slug>.md`. If a file already exists there, ask before overwriting.
 

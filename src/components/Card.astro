@@ -1,5 +1,4 @@
 ---
-import { slugifyStr } from "@/utils/slugify";
 import type { CollectionEntry } from "astro:content";
 import { getPath } from "@/utils/getPath";
 import dayjs from "dayjs";
@@ -10,11 +9,9 @@ import { SITE } from "@/config";
 dayjs.extend(utc);
 dayjs.extend(timezone);
 
-export interface Props extends CollectionEntry<"blog"> {
-  variant?: "h2" | "h3";
-}
+export type Props = CollectionEntry<"blog">;
 
-const { variant = "h2", data, id, filePath } = Astro.props;
+const { data, id, filePath } = Astro.props;
 
 const { title, pubDatetime, modDatetime, timezone: postTimezone } = data;
 

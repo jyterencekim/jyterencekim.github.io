@@ -1,3 +1,6 @@
+const HANGUL = /[가-힯ᄀ-ᇿ㄰-㆏]/;
+const KANA_HAN = /[぀-ヿ㐀-䶿一-鿿]/;
+
 async function loadGoogleFont(
   font: string,
   text: string,
@@ -48,6 +51,42 @@ async function loadGoogleFonts(
       style: "bold",
     },
   ];
+
+  // ibm plex mono has no hangul coverage — pull a korean face only when needed
+  if (HANGUL.test(text)) {
+    fontsConfig.push(
+      {
+        name: "IBM Plex Sans KR",
+        font: "IBM+Plex+Sans+KR",
+        weight: 400,
+        style: "normal",
+      },
+      {
+        name: "IBM Plex Sans KR",
+        font: "IBM+Plex+Sans+KR",
+        weight: 700,
+        style: "bold",
+      }
+    );
+  }
+
+  // ...nor kana/han
+  if (KANA_HAN.test(text)) {
+    fontsConfig.push(
+      {
+        name: "Noto Sans JP",
+        font: "Noto+Sans+JP",
+        weight: 400,
+        style: "normal",
+      },
+      {
+        name: "Noto Sans JP",
+        font: "Noto+Sans+JP",
+        weight: 700,
+        style: "bold",
+      }
+    );
+  }
 
   const fonts = await Promise.all(
     fontsConfig.map(async ({ name, font, weight, style }) => {

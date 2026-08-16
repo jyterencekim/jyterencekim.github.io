@@ -33,3 +33,11 @@ node_modules
 
 # raw drafts (not for publishing)
 raw/
+
+# spotify token cache (secret) — written by scripts/spotify-playlist.py (spotipy)
+# WARNING: this file is still TRACKED and already pushed to origin/master, so this
+# rule does nothing for it yet. required manual steps, in order:
+#   1. revoke the app at https://www.spotify.com/account/apps (refresh tokens never expire)
+#   2. git rm --cached .cache
+#   3. purge from history: git filter-repo --path .cache --invert-paths, then force-push
+.cache

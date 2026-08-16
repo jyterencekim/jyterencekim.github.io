@@ -6,6 +6,8 @@ import "@/styles/global.css";
 
 export interface Props {
   title?: string;
+  /** bare entry title for structured data; `title` carries the " | site" suffix */
+  headline?: string;
   author?: string;
   profile?: string;
   description?: string;
@@ -14,10 +16,12 @@ export interface Props {
   pubDatetime?: Date;
   modDatetime?: Date | null;
   scrollSmooth?: boolean;
+  lang?: string;
 }
 
 const {
   title = SITE.title,
+  headline,
   author = SITE.author,
   profile = SITE.profile,
   description = SITE.desc,
@@ -26,32 +30,59 @@ const {
   pubDatetime,
   modDatetime,
   scrollSmooth = false,
+  lang = SITE.lang,
 } = Astro.props;
 
 const socialImageURL = new URL(ogImage, Astro.url);
 
-const structuredData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: `${title}`,
-  image: `${socialImageURL}`,
-  datePublished: `${pubDatetime?.toISOString()}`,
-  ...(modDatetime && { dateModified: modDatetime.toISOString() }),
-  author: [
-    {
-      "@type": "Person",
-      name: `${author}`,
-      ...(profile && { url: profile }),
-    },
-  ],
-};
+// og:locale
+const ogLocale =
+  lang === "ko"
+    ? "ko_KR"
+    : lang === "en"
+      ? "en_US"
+      : lang === "ja"
+        ? "ja_JP"
+        : lang;
+
+const structuredData = pubDatetime
+  ? {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      headline: headline ?? title,
+      image: socialImageURL.href,
+      datePublished: pubDatetime.toISOString(),
+      ...(modDatetime && { dateModified: modDatetime.toISOString() }),
+      inLanguage: lang,
+      url: canonicalURL.toString(),
+      author: [
+        {
+          "@type": "Person",
+          name: author,
+          ...(profile && { url: profile }),
+        },
+      ],
+    }
+  : {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: SITE.title,
+      url: SITE.website,
+      description: SITE.desc,
+      inLanguage: lang,
+      author: {
+        "@type": "Person",
+        name: SITE.author,
+        ...(SITE.profile && { url: SITE.profile }),
+      },
+    };
 ---
 
 <!doctype html>
 <html
   dir={SITE.dir}
-  lang=`${SITE.lang ?? "en"}`
-  class={`${scrollSmooth && "scroll-smooth"}`}
+  lang={lang}
+  class:list={{ "scroll-smooth": scrollSmooth }}
 >
   <head>
     <meta charset="UTF-8" />
@@ -72,6 +103,9 @@ const structuredData = {
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:image" content={socialImageURL} />
+    <meta property="og:type" content={pubDatetime ? "article" : "website"} />
+    <meta property="og:site_name" content={SITE.title} />
+    <meta property="og:locale" content={ogLocale} />
 
     <!-- Article Published/Modified time -->
     {
@@ -114,7 +148,9 @@ const structuredData = {
       href={new URL("rss.xml", Astro.site)}
     />
 
-    <meta name="theme-color" content="" />
+    <!-- keep this a single media-less tag: toggle-theme.js owns the value at
+         runtime (querySelector only ever sees the first match) -->
+    <meta name="theme-color" content="#f5f5f5" />
 
     {
       // If PUBLIC_GOOGLE_SITE_VERIFICATION is set in the environment variable,
@@ -128,12 +164,13 @@ const structuredData = {
       )
     }
 
-    <!-- Geist Mono Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Geist Mono Font (self-hosted) -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap"
-      rel="stylesheet"
+      rel="preload"
+      href="/fonts/geist-mono-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
     />
 
     <ClientRouter />
